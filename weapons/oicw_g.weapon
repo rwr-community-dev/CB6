@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="oicw_g.weapon">
+    <tag name="assault" />
+
+    <specification 
+  retrigger_time="1.8" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="2.3" 
+  sustained_fire_diminish_rate="0.5" 
+  magazine_size="4" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="XM-29 OICW" 
+  class="0" 
+  sight_range_modifier="1.2"  
+  projectile_speed="40.0"
+  projectiles_per_shot="1"  
+  barrel_offset="0.3" 
+/>
+
+	<next_in_chain key="oicw.weapon" share_ammo="0" />
+
+    <!-- <ballistics curve_height="3.6" near_far_distance="100.0" speed_estimation_near="40.0" speed_estimation_far="40.0" max_speed="40.0" randomness="0.0" tweak_factor="1.1" /> -->
+    <ballistics curve_height="2.0" near_far_distance="0.0" speed_estimation_near="40.0" speed_estimation_far="40.0" max_speed="60.0" randomness="0.0" tweak_factor="1.94" /> 
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, paw20" />
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode" />    
+
+    <sound key="fire" fileref="xm25_shot.wav" pitch_variety="0.1" volume="1.0" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />    
+    <model filename="oicw.xml" />
+
+    <hud_icon filename="hud_oicw_g.png" />
+    <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    <inventory encumbrance="10.0" price="400.0" />
+  
+    <weak_hand_hold offset="0.005" />
+    <projectile file="xm29.projectile" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.4" />
+
+    <stance state_key="running" accuracy="0.13" />
+    <stance state_key="walking" accuracy="0.4" />
+    <stance state_key="crouch_moving" accuracy="0.15" />
+    <stance state_key="prone_moving" accuracy="0.02" />
+
+    <stance state_key="standing" accuracy="0.80" />
+    <stance state_key="crouching" accuracy="0.92" />
+    <stance state_key="prone" accuracy="1.0" />
+
+    <modifier class="speed" value="-0.08" />    
+
+</weapon>

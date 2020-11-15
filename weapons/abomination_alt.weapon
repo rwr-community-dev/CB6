@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="abomination_alt.weapon">
+    <tag name="sniper" />
+    <specification 
+  retrigger_time="0.1" 
+  accuracy_factor="0.9" 
+  sustained_fire_grow_step="2.0" 
+  sustained_fire_diminish_rate="0.7" 
+  magazine_size="15" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="Gadkaia Merzost" 
+  class="0" 
+  projectile_speed="100.0" 
+  barrel_offset="0.4"
+  projectiles_per_shot="1" />
+  
+	<next_in_chain key="abomination.weapon" share_ammo="0" />
+
+    <animation state_key="recoil" ref="27" />
+    <animation state_key="reload" animation_key="reloading, abomination" />
+    <sound key="fire" fileref="abomination_shot.wav" pitch_variety="0.01" volume="0.7" />
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="hunter_cycle_in.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="abomination.xml" />
+
+    <hud_icon filename="hud_abomination.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="0" />
+    
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.4" />
+    
+    <inventory encumbrance="10.0" price="776.0" />
+
+    <weak_hand_hold offset="0.4" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="1.9" kill_decay_start_time="0.39" kill_decay_end_time="0.62" />
+    </projectile>
+
+    <modifier class="speed" value="-0.12" />
+</weapon>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="doublebarrel.weapon" key="doublebarrel_alt.weapon">
+	
+    <specification 
+	retrigger_time="0.0"
+	sustained_fire_grow_step="1.5"
+	name="KSxS-6 Hunter, double shot"
+	burst_shots="2"
+	/>
+
+	<next_in_chain key="doublebarrel.weapon" share_ammo="1" />
+
+    <hud_icon filename="hud_hunter_shotgun_alt.png" />
+</weapon>

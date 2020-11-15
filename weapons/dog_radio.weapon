@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary.weapon" key="dog_radio.weapon" on_ground_up="1 0 0" radius="0.45" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="30.0">
+    <specification magazine_size="1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="1" 
+    carry_in_two_hands="0" 
+    name="attack dog drop" 
+    class="5" 
+    spawn_instance_class="call" 
+    spawn_instance_key="dog.call" 
+    consume="1" 
+    sight_range_modifier="1" 
+    slot="1"
+    deployment="1" />
+    <animation state_key="recoil" 		animation_key="radio call" />
+    <animation state_key="hold" 		animation_key="still, instructor" />
+    <animation state_key="hold_on_wall" 	animation_key="still, instructor" />
+    <animation state_key="hold_casual" 		animation_key="still, instructor" />
+    <animation state_key="still_against_wall" 	animation_key="still, instructor" />
+	<animation state_key="running"	animation_key="running, no weapon, 60" />
+    <animation state_key="walking" 		animation_key="weaponless_walking" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
+    <animation state_key="crouching" 		animation_key="crouch still, no weapon, 62" />
+    <animation state_key="crouch_moving" 	animation_key="crouching forwards, no weapon, 61" />
+    <animation state_key="prone_still" animation_key="prone, without weapon, 63" />
+    <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+
+    <model filename="radio.xml" />
+
+    <capacity value="1" source="rank" source_value="0.0" />    
+
+    <hud_icon filename="hud_dog.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="1" />
+    <inventory encumbrance="2.0" price="200.0" />
+
+</weapon>
+

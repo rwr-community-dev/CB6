@@ -1,0 +1,29 @@
+<model>
+    <voxels>
+        <voxel x="0" y="0" z="0" r="0.021978" g="0.032967" b="0.027473" a="1.000000" />
+        <voxel x="-1" y="1" z="0" r="0.021978" g="0.032967" b="0.027473" a="1.000000" />
+        <voxel x="-2" y="2" z="0" r="0.021978" g="0.032967" b="0.027473" a="1.000000" />
+        <voxel x="-3" y="3" z="0" r="0.838768" g="0.708333" b="0.224638" a="1.000000" />
+        <voxel x="-4" y="4" z="0" r="0.838768" g="0.708333" b="0.224638" a="1.000000" />
+        <voxel x="-5" y="5" z="0" r="0.838768" g="0.708333" b="0.224638" a="1.000000" />
+        <voxel x="-6" y="6" z="0" r="0.838768" g="0.708333" b="0.224638" a="1.000000" />
+        <voxel x="-7" y="7" z="0" r="0.838768" g="0.708333" b="0.224638" a="1.000000" />
+        <voxel x="-1" y="3" z="0" r="0.021978" g="0.032967" b="0.027473" a="1.000000" />
+        <voxel x="-3" y="1" z="0" r="0.021978" g="0.032967" b="0.027473" a="1.000000" />
+    </voxels>
+    <skeleton />
+    <skeletonVoxelBindings>
+        <group constraintIndex="0">
+            <voxel index="0" />
+            <voxel index="1" />
+            <voxel index="2" />
+            <voxel index="3" />
+            <voxel index="4" />
+            <voxel index="5" />
+            <voxel index="6" />
+            <voxel index="7" />
+            <voxel index="8" />
+            <voxel index="9" />
+        </group>
+    </skeletonVoxelBindings>
+</model>

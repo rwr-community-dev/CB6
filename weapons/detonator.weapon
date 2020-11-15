@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary.weapon" key="detonator.weapon" >
+	
+  <specification
+	 retrigger_time="0.01"
+	 accuracy_factor="1.0"
+	 spread_range="0.0"
+	 sight_range_modifier="1.0"
+	 sustained_fire_grow_step="0.0"
+	 sustained_fire_diminish_rate="1.0"
+	 carry_in_two_hands="0" 
+	 magazine_size="-1"
+	 suppressed="1"
+	 class="4"
+	 burst_shots="1"
+	 name="UGV detonator"
+	 slot="1"
+	 projectile_speed="100.0"
+	 barrel_offset="0.1"
+	 projectiles_per_shot="1"
+	 use_basic_muzzle_smoke_effect="0" />
+	 
+	<animation state_key="recoil"	animation_key="hold_casual, pistol" />
+    <animation state_key="hold" 		animation_key="hold_casual, pistol" />
+    <animation state_key="hold_on_wall" 	animation_key="hold_casual, pistol" />
+    <animation state_key="hold_casual" 		animation_key="hold_casual, pistol" />
+    <animation state_key="still_against_wall" 	animation_key="hold_casual, pistol" />
+	<animation state_key="running"	animation_key="running, no weapon, 60" />
+    <animation state_key="walking" 		animation_key="weaponless_walking" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
+	<animation state_key="crouching"	animation_key="crouch, knife" />
+	<animation state_key="crouch_moving"	animation_key="crouching forwards, ninjato" />
+	<animation state_key="crouch_moving_backwards"	animation_key="crouching backwards, ninjato" />
+    <animation state_key="prone_still" animation_key="prone_still, pistol" />
+    <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+	
+    <sound key="fire" fileref="button_push.wav" volume="0.7" />
+	
+	<model filename="detonator.xml" />
+	<hud_icon filename="hud_ugvradio.png" />
+	
+	<commonness value="0.0" in_stock="1" can_respawn_with="0" />
+	<inventory encumbrance="1.0" price="50.0" />
+	
+    <capacity value="0" source="rank" source_value="0.0" /> 
+	<capacity value="1" source="rank" source_value="0.2" />
+	
+	<projectile file="detonator.projectile" />
+
+	<ballistics near_far_distance="0.0" speed_estimation_near="1000.0" speed_estimation_far="1000.0" max_speed="1000.0" randomness="0.0"/>
+	
+	<stance state_key="running" accuracy="1.0" />
+	<stance state_key="walking" accuracy="1.0" />
+	<stance state_key="crouch_moving" accuracy="1.0" />
+	<stance state_key="prone_moving" accuracy="1.0" />
+	<stance state_key="standing" accuracy="1.0" />
+	<stance state_key="crouching" accuracy="1.0" />
+	<stance state_key="prone" accuracy="1.0" />
+	
+</weapon>
