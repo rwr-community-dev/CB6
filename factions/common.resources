@@ -346,8 +346,8 @@
 	<weapon key="abomination.weapon" />
 	<weapon key="ultimax.weapon" />
 
-  <weapon file="ak47flame_f.weapon" />
-	<weapon file="ak47flame.weapon" />
+  <weapon key="ak47flame_f.weapon" />
+	<weapon key="ak47flame.weapon" />
 
 <!-- testing  -->
 	<weapon key="stoner62.weapon" />

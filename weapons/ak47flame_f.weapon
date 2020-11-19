@@ -33,8 +33,8 @@
 	<model filename="akflame.xml" />
 	<hud_icon filename="hud_ak47flame_f.png" />
 	
-	<commonness value="0.0" can_respawn_with="0" in_stock="1" />
-	<inventory encumbrance="10.0" price="400.0" />
+	<commonness value="0.0" can_respawn_with="0" in_stock="0" />
+	<inventory encumbrance="10.0" price="250.0" />
 	
 	<capacity value="1" source="rank" source_value="0.6" />
 	
