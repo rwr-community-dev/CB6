@@ -7,6 +7,7 @@ CB6 contents and their creators:
 -XM29 OICW with remote and automatic airburst modes (warbrand2 & Kiruex)
 -Gadkaia Merzost twin rifle abomination (Kiruex)
 -Ultimax 100 reverse-recoil light machine gun (Kiruex)
+-AK47 Flamer (warbrand2)
 
 
 Other stuff:
