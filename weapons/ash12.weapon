@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="ash12.weapon">
+    <tag name="assault" />
+
+    <specification 
+  retrigger_time="0.11" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="2.0" 
+  sustained_fire_diminish_rate="1.0" 
+  spread_range="0.15" 
+  magazine_size="20" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="ASh-12.7" 
+  class="0" 
+  projectile_speed="90.0" 
+  barrel_offset="0.3" 
+  stance_accuracy_rate="1.0" 
+/>
+
+	<next_in_chain key="ash12_g.weapon" share_ammo="0" />
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, paw20" />
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode" /> 
+
+    <sound key="fire" fileref="ash_shot.wav" pitch_variety="0.05" volume="0.5" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="ash12.xml" />
+
+    <hud_icon filename="hud_ash12.png" />
+    <commonness value="0.0" in_stock="1" can_respawn_with="0" />
+    <inventory encumbrance="10.0" price="721.0" />
+
+    <weak_hand_hold offset="0.3" />
+    <projectile file="bullet.projectile">
+        <result class="hit"  kill_probability="1.5" kill_decay_start_time="0.22" kill_decay_end_time="0.72" />
+    </projectile>
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.5" />
+
+    <modifier class="speed" value="-0.1" />
+</weapon>

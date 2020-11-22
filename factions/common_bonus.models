@@ -117,22 +117,32 @@
 	
 	<model filename="soldier_riotgear.xml">
 		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="benelli_m4.weapon"/>
+		<requirement class="weapon" slot="0" key="aa-12.weapon"/>
 		<requirement class="weapon" slot="1" key="riot_shield.weapon"/>
 	</model>
 	<model filename="soldier_riotgear.xml">
 		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="benelli_m4.weapon"/>
+		<requirement class="weapon" slot="0" key="aa-12.weapon"/>
 		<requirement class="weapon" slot="1" key="riot_shield_2"/>
 	</model>
 	<model filename="soldier_riotgear.xml">
 		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="aa-12.weapon"/>
+		<requirement class="weapon" slot="0" key="ash12.weapon"/>
 		<requirement class="weapon" slot="1" key="riot_shield.weapon"/>
 	</model>
 	<model filename="soldier_riotgear.xml">
 		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="aa-12.weapon"/>
+		<requirement class="weapon" slot="0" key="ash12.weapon"/>
+		<requirement class="weapon" slot="1" key="riot_shield_2"/>
+	</model>
+	<model filename="soldier_riotgear.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ash12_g.weapon"/>
+		<requirement class="weapon" slot="1" key="riot_shield.weapon"/>
+	</model>
+	<model filename="soldier_riotgear.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ash12_g.weapon"/>
 		<requirement class="weapon" slot="1" key="riot_shield_2"/>
 	</model>
 

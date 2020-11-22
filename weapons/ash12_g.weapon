@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="ash12_g.weapon">
+    <tag name="assault" />
+
+    <specification 
+  retrigger_time="0.5" 
+  accuracy_factor="0.9" 
+  sustained_fire_grow_step="1.5" 
+  sustained_fire_diminish_rate="0.5" 
+  magazine_size="3" 
+  can_shoot_standing="1" 
+  suppressed="1" 
+  name="ASh-12.7" 
+  class="4" 
+  reload_one_at_a_time="1"    
+  projectile_speed="70.0"
+  projectiles_per_shot="1"  
+  barrel_offset="0.3" 
+  burst_shots="1"
+/>
+
+	<next_in_chain key="ash12.weapon" share_ammo="0" /> 
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, ash, one at a time" />
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode" />    
+
+    <sound key="fire" fileref="portable_mortar_shot.wav" pitch_variety="0.1" volume="0.8" />
+    <sound key="magazine_out" fileref="m79_clip_out.wav" volume="0.8" />
+    <sound key="magazine_in" fileref="mossberg500_reload.wav" volume="0.8"/>
+    <sound key="reload_one" fileref="m79_reload.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />    
+    <model filename="ash12.xml" />
+
+    <hud_icon filename="hud_ash12_g.png" />
+    <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    <inventory encumbrance="10.0" price="721.0" />
+  
+    <weak_hand_hold offset="0.5" />
+    <projectile file="ash12.projectile" />
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.5" />
+
+    <modifier class="speed" value="-0.1" />    
+
+</weapon>
