@@ -347,6 +347,7 @@
 	<weapon key="ultimax.weapon" />
 	<weapon key="ak47flame.weapon" />
   <weapon key='ash12.weapon' />
+  <weapon key='qlu11.weapon' />
   <weapon key='paintspray.weapon' />
 
 <!-- testing  -->
