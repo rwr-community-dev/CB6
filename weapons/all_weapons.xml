@@ -287,10 +287,12 @@
 	<weapon file="ultimax.weapon" />
 	<weapon file="ultimax_m.weapon" />
 
-  <weapon file="ak47flame_f.weapon" />
+	<weapon file="ak47flame_f.weapon" />
 	<weapon file="ak47flame.weapon" />
 
-  <weapon file="ash12.weapon" />
+	<weapon file="ash12.weapon" />
 	<weapon file="ash12_g.weapon" />
+	<weapon file="qlu11.weapon" />
+
 
 </weapons>

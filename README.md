@@ -8,7 +8,7 @@
 - Ultimax 100 reverse-recoil light machine gun (Kiruex)
 - AK47 Flamer (warbrand2)
 - Ash 12 (Kiruex)
-
+- QLU-11 sniper grenade launcher (Xe-No & GhostNZ)
 
 #### Other stuff:
 - Rangefinder binoculars (Unit G17)
