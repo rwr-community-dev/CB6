@@ -294,5 +294,7 @@
 	<weapon file="ash12_g.weapon" />
 	<weapon file="qlu11.weapon" />
 
+  <weapon file="paintspray.weapon" />
+  <weapon file="paintspray_c.weapon" />
 
 </weapons>

@@ -9,6 +9,7 @@
 - AK47 Flamer (warbrand2)
 - Ash 12 (Kiruex)
 - QLU-11 sniper grenade launcher (Xe-No & GhostNZ)
+- Paint Sprayer (Kiruex)
 
 #### Other stuff:
 - Rangefinder binoculars (Unit G17)

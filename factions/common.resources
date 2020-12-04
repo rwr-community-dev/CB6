@@ -345,10 +345,9 @@
 	<weapon key="oicw.weapon" />
 	<weapon key="abomination.weapon" />
 	<weapon key="ultimax.weapon" />
-
 	<weapon key="ak47flame.weapon" />
-
   <weapon key='ash12.weapon' />
+  <weapon key='paintspray.weapon' />
 
 <!-- testing  -->
 	<weapon key="stoner62.weapon" />
