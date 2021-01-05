@@ -3,9 +3,9 @@
     <tag name="machine gun" />
     <specification
   retrigger_time="0.092"
-  accuracy_factor="0.50"
-  spread_range="0.18"
-  sustained_fire_grow_step="1.4"
+  accuracy_factor="0.48"
+  spread_range="0.25"
+  sustained_fire_grow_step="0.8"
   sustained_fire_diminish_rate="0.82"
   magazine_size="120"
   can_shoot_standing="1"
@@ -31,7 +31,7 @@
 	<animation state_key="crouching" animation_key="crouch, hold, hip fire" />
 	<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
 
-    <sound key="fire" fileref="RPD_shot.wav" pitch_variety="0.05" volume="0.33" />
+    <sound key="fire" fileref="RPD_shot.wav" pitch_variety="0.05" volume="0.6" />
     <sound key="magazine_out" fileref="mg_clip_out.wav" />
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
@@ -48,13 +48,13 @@
     </projectile>
 
     <stance state_key="running" accuracy="0.3" />
-    <stance state_key="walking" accuracy="0.675" />
-    <stance state_key="crouch_moving" accuracy="0.75" />
+    <stance state_key="walking" accuracy="0.58" />
+    <stance state_key="crouch_moving" accuracy="0.6" />
     <stance state_key="prone_moving" accuracy="0.3" />
 
-    <stance state_key="standing" accuracy="0.8" />
-    <stance state_key="crouching" accuracy="0.85" />
-    <stance state_key="prone" accuracy="0.94" />
+    <stance state_key="standing" accuracy="0.6" />
+    <stance state_key="crouching" accuracy="0.62" />
+    <stance state_key="prone" accuracy="0.64" />
 
-    <modifier class="speed" value="-0.09" />
+    <modifier class="speed" value="-0.092" />
 </weapon>
