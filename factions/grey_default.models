@@ -44,7 +44,7 @@
 	<model filename="soldier_b1eod.xml">
 		<requirement class="carry_item" slot="1" key="eod_6"/>
 		<requirement class="rank" range="0 10000" />
-	</model>    
+	</model>
 
 <!-- -------------------------- -->
 
@@ -71,8 +71,8 @@
 	<model filename="soldier_b_vest_t3.xml">
 		<requirement class="carry_item" slot="1" key="vest3_6"/>
 		<requirement class="rank" range="0 10000" />
-	</model> 
-	
+	</model>
+
 <!-- -------------------------- -->
 
 
@@ -84,9 +84,9 @@
 		<requirement class="carry_item" slot="1" key="costume_werewolf_1"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
-	
 
-	
+
+
 	<!-- -------------------------- -->
 	<model filename="costume_clown.xml">
 		<requirement class="carry_item" slot="1" key="costume_clown.carry_item"/>
@@ -96,9 +96,9 @@
 		<requirement class="carry_item" slot="1" key="costume_clown_1"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
-	
 
-	
+
+
 	<!-- -------------------------- -->
 	<model filename="costume_santa.xml">
 		<requirement class="carry_item" slot="1" key="costume_santa.carry_item"/>
@@ -108,8 +108,8 @@
 		<requirement class="carry_item" slot="1" key="costume_santa_1"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
-	
-	
+
+
 	<!-- -------------------------- -->
 	<model filename="costume_lizard.xml">
 		<requirement class="carry_item" slot="1" key="costume_lizard.carry_item"/>
@@ -126,8 +126,8 @@
 		<requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
-	
-	
+
+
 	<!-- -------------------------- -->
 	<model filename="costume_banana.xml">
 		<requirement class="carry_item" slot="1" key="costume_banana.carry_item"/>
@@ -137,7 +137,7 @@
 		<requirement class="carry_item" slot="1" key="costume_banana_1"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
-	
+
 
 	<!-- -------------------------- -->
 	<model filename="soldier_b1_camo_vest.xml">
@@ -155,17 +155,17 @@
 	<model filename="soldier_b1_camo_vest.xml">
 		<requirement class="carry_item" slot="1" key="camo_3"/>
 		<requirement class="rank" range="0 10000" />
-	</model>	
+	</model>
 	<model filename="soldier_b1_camo_vest.xml">
 		<requirement class="carry_item" slot="1" key="camo_4"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
 
-	
+
 	<!-- -------------------------- -->
 	<!-- black ops -->
 	<!-- -------------------------- -->
-	
+
 	<model filename="soldier_blackops.xml">
 		<requirement class="carry_item" slot="1" key="vest_blackops.carry_item"/>
 		<requirement class="rank" range="0 10000" />
@@ -185,7 +185,7 @@
 	<model filename="president_grey.xml">
 		<requirement class="rank" range="1000 10000" />
   </model>
-    
+
 	<!-- -------------------------- -->
 	<!-- john wick and suits -->
 	<!-- -------------------------- -->
@@ -242,7 +242,7 @@
 		<requirement class="carry_item" slot="1" key="vest3_6"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
-	</model> 
+	</model>
 	<model filename="soldier_wickwere.xml">
 		<requirement class="carry_item" slot="1" key="costume_werewolf.carry_item"/>
 		<requirement class="rank" range="0 10000" />
@@ -327,7 +327,7 @@
 		<requirement class="carry_item" slot="1" key="eod_6"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
-	</model>    
+	</model>
 	<model filename="soldier_wickbanana.xml">
 		<requirement class="carry_item" slot="1" key="costume_banana.carry_item"/>
 		<requirement class="rank" range="0 10000" />
@@ -357,7 +357,7 @@
 		<requirement class="carry_item" slot="1" key="camo_3"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
-	</model>	
+	</model>
 	<model filename="soldier_wickcamo.xml">
 		<requirement class="carry_item" slot="1" key="camo_4"/>
 		<requirement class="rank" range="0 10000" />
@@ -367,12 +367,12 @@
 		<requirement class="carry_item" slot="1" key="costume_butcher.carry_item"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
-	</model> 
+	</model>
 	<model filename="soldier_wickpsycho.xml">
 		<requirement class="carry_item" slot="1" key="costume_butcher_1"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
-	</model> 
+	</model>
 	<model filename="soldier_wickexo.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo.carry_item"/>
 		<requirement class="rank" range="0 10000" />
@@ -392,19 +392,19 @@
 		<requirement class="rank" range="100 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
-    
+
 	<!-- ----------------->
 	<!-- Psycho Butcher -->
 	<!-- ----------------->
-         
+
     <model filename="soldier_chainsaw.xml">
 		<requirement class="rank" range="0 10000" />
 		<requirement class="carry_item" slot="1" key="costume_butcher.carry_item"/>
-	</model>   
+	</model>
     <model filename="soldier_chainsaw.xml">
 		<requirement class="rank" range="0 10000" />
 		<requirement class="carry_item" slot="1" key="costume_butcher_1"/>
-	</model>   
+	</model>
 
 	<!-- ----------------->
 	<!-- Exo Suit -->
@@ -480,7 +480,7 @@
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="ninjato.weapon"/>
 	</model>
-	
+
 	<model filename="soldier_ninja.xml">
 		<requirement class="carry_item" slot="1" key="vest_blackops.carry_item"/>
 		<requirement class="rank" range="0 10000" />
@@ -507,4 +507,71 @@
 		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
 	</model>
 
+  <!-- ----------------->
+	<!-- dp28 -->
+	<!-- ----------------->
+	<model filename="soldier_dp28eod.xml">
+		<requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="dp28_s.weapon"/>
+	</model>
+	<model filename="soldier_dp28eod.xml">
+		<requirement class="carry_item" slot="1" key="eod_2"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="dp28_s.weapon"/>
+	</model>
+	<model filename="soldier_dp28eod.xml">
+		<requirement class="carry_item" slot="1" key="eod_3"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="dp28_s.weapon"/>
+	</model>
+	<model filename="soldier_dp28eod.xml">
+		<requirement class="carry_item" slot="1" key="eod_4"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="dp28_s.weapon"/>
+	</model>
+	<model filename="soldier_dp28eod.xml">
+		<requirement class="carry_item" slot="1" key="eod_5"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="dp28_s.weapon"/>
+	</model>
+	<model filename="soldier_dp28eod.xml">
+		<requirement class="carry_item" slot="1" key="eod_6"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="dp28_s.weapon"/>
+	</model>
+
+	<!-- ----------------->
+	<!-- Shumikha Launcher -->
+	<!-- ----------------->
+	<model filename="soldier_dp28eod.xml">
+		<requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+	</model>
+	<model filename="soldier_dp28eod.xml">
+		<requirement class="carry_item" slot="1" key="eod_2"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+	</model>
+	<model filename="soldier_dp28eod.xml">
+		<requirement class="carry_item" slot="1" key="eod_3"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+	</model>
+	<model filename="soldier_dp28eod.xml">
+		<requirement class="carry_item" slot="1" key="eod_4"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+	</model>
+	<model filename="soldier_dp28eod.xml">
+		<requirement class="carry_item" slot="1" key="eod_5"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+	</model>
+	<model filename="soldier_dp28eod.xml">
+		<requirement class="carry_item" slot="1" key="eod_6"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+	</model>
 </models>

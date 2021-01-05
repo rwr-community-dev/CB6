@@ -223,7 +223,7 @@
 	<weapon file="noxe.weapon" />
 	<weapon file="legion_cannon.weapon" />
 	<weapon file="legion_mg.weapon" />
-    <weapon file="sev90_cannon.weapon" />
+  <weapon file="sev90_cannon.weapon" />
 	<weapon file="chicken_carrier.weapon" />
 	<weapon file="ninjato.weapon" />
 	<weapon file="m320.weapon" />
@@ -296,5 +296,18 @@
 
   <weapon file="paintspray.weapon" />
   <weapon file="paintspray_c.weapon" />
+
+  <weapon file="aek999.weapon" />
+  <weapon file="dp28_s.weapon" />
+  <weapon file="Gilboa.weapon" />
+  <weapon file="M99.weapon" />
+  <weapon file="Mac10.weapon" />
+  <weapon file="Mac10_bayonet.weapon" />
+  <weapon file="qbz-95.weapon" />
+  <weapon file="qbz-95_us.weapon" />
+  <weapon file="RPD.weapon" />
+  <weapon file="RPD_b.weapon" />
+  <weapon file="Shumikha.weapon" />
+  <weapon file="xm556.weapon" />
 
 </weapons>

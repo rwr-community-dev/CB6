@@ -10,6 +10,15 @@
 - Ash 12 (Kiruex)
 - QLU-11 sniper grenade launcher (Xe-No & GhostNZ)
 - Paint Sprayer (Kiruex)
+- AEK999 (KF redfox)
+- dp28 - shield (KF redfox)
+- Gilboa DBR (KF redfox)
+- M99 (KF redfox)
+- Mac10 w/ bayonet (KF redfox)
+- qbz-95 w/ underbarrel shotgun (KF redfox)
+- RPD w/ bipod (KF redfox)
+- Shumikha Launcher (KF redfox)
+- XM - 556 (KF redfox)
 
 #### Other stuff:
 - Rangefinder binoculars (Unit G17)

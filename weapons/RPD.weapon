@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="RPD.weapon">
+    <tag name="machine gun" />
+    <specification 
+  retrigger_time="0.092" 
+  accuracy_factor="0.50" 
+  spread_range="0.18"
+  sustained_fire_grow_step="1.4" 
+  sustained_fire_diminish_rate="0.82" 
+  magazine_size="120" 
+  can_shoot_standing="1" 
+  can_shoot_crouching="1" 
+  suppressed="0" 
+  name="RPD" 
+  class="0" 
+  projectile_speed="92.0"
+	barrel_offset="0.65"  />
+
+	<next_in_chain key="RPD_b.weapon" share_ammo="1" />
+
+ 	<animation state_key="recoil" animation_key="recoil, hip fire" />
+ 	<animation state_key="recoil" animation_key="recoil2, hip fire" />
+ 	<animation state_key="recoil" animation_key="recoil3, hip fire" />
+	<animation key="recoil" stance_key="over_wall" ref="12" />
+	<animation key="recoil" stance_key="over_wall" ref="13" />
+	<animation key="recoil" stance_key="over_wall" ref="14" />
+  <animation state_key="hold" animation_key="hold, lmg" />
+  <animation key="reload" ref="33" />
+  <animation key="hold_on_wall" ref="1" />
+	<animation state_key="walking" animation_key="walking, hip fire" />
+	<animation state_key="crouching" animation_key="crouch, hold, hip fire" />
+	<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+    
+    <sound key="fire" fileref="RPD_shot.wav" pitch_variety="0.05" volume="0.33" />
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="RPD.xml" />
+
+    <hud_icon filename="hud_RPD.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="0"/>
+    <inventory encumbrance="10.0" price="360.0" />
+
+    <weak_hand_hold offset="0.4" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.60" kill_decay_start_time="0.30" kill_decay_end_time="0.7" />
+    </projectile>
+
+    <stance state_key="running" accuracy="0.3" />
+    <stance state_key="walking" accuracy="0.675" />
+    <stance state_key="crouch_moving" accuracy="0.75" />
+    <stance state_key="prone_moving" accuracy="0.3" />
+
+    <stance state_key="standing" accuracy="0.8" />
+    <stance state_key="crouching" accuracy="0.85" />
+    <stance state_key="prone" accuracy="0.94" />
+
+    <modifier class="speed" value="-0.09" />
+</weapon>
