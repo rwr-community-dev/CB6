@@ -83,10 +83,9 @@
   <projectile file="selfstun.projectile" />
   <projectile file="ugv_blast.projectile" />
   <projectile file="ugv.projectile" />
-  <projectile file="firecracker.projectile" />
+  <!-- <projectile file="firecracker.projectile" />
 
-  <projectile file="firenade.projectile" />
-  <projectile file="firenade_sub.projectile" />
+  <projectile file="firenade.projectile" /> -->
   <projectile file="M99.projectile" />
 
 </projectiles>
