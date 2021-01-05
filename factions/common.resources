@@ -350,6 +350,16 @@
   <weapon key='qlu11.weapon' />
   <weapon key='paintspray.weapon' />
 
+  <weapon key="aek999.weapon" />
+  <weapon key="dp28_s.weapon" />
+  <weapon key="Gilboa.weapon" />
+  <weapon key="M99.weapon" />
+  <weapon key="Mac10.weapon" />
+  <weapon key="qbz-95.weapon" />
+  <weapon key="RPD.weapon" />
+  <weapon key="Shumikha.weapon" />
+  <weapon key="xm556.weapon" />
+
 <!-- testing  -->
 	<weapon key="stoner62.weapon" />
 	<weapon key="barrett_m107.weapon" />

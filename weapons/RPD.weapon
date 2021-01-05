@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_rare.weapon" key="RPD.weapon">
     <tag name="machine gun" />
-    <specification 
-  retrigger_time="0.092" 
-  accuracy_factor="0.50" 
+    <specification
+  retrigger_time="0.092"
+  accuracy_factor="0.50"
   spread_range="0.18"
-  sustained_fire_grow_step="1.4" 
-  sustained_fire_diminish_rate="0.82" 
-  magazine_size="120" 
-  can_shoot_standing="1" 
-  can_shoot_crouching="1" 
-  suppressed="0" 
-  name="RPD" 
-  class="0" 
+  sustained_fire_grow_step="1.4"
+  sustained_fire_diminish_rate="0.82"
+  magazine_size="120"
+  can_shoot_standing="1"
+  can_shoot_crouching="1"
+  suppressed="0"
+  name="RPD"
+  class="0"
   projectile_speed="92.0"
 	barrel_offset="0.65"  />
 
@@ -30,7 +30,7 @@
 	<animation state_key="walking" animation_key="walking, hip fire" />
 	<animation state_key="crouching" animation_key="crouch, hold, hip fire" />
 	<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
-    
+
     <sound key="fire" fileref="RPD_shot.wav" pitch_variety="0.05" volume="0.33" />
     <sound key="magazine_out" fileref="mg_clip_out.wav" />
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
@@ -39,7 +39,7 @@
     <model filename="RPD.xml" />
 
     <hud_icon filename="hud_RPD.png" />
-    <commonness value="0.0" can_respawn_with="0" in_stock="0"/>
+    <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
     <inventory encumbrance="10.0" price="360.0" />
 
     <weak_hand_hold offset="0.4" />
