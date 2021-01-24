@@ -1,24 +1,44 @@
 #### CB6 contents and their creators:
-- Attack dogs (Kiruex)
-- Cavalry saber (Kiruex)
-- KSxS-6 Hunter double-barrel shotgun with double shot mode (Kiruex)
-- Demolisher UGV plus remote detonator (Kiruex)
-- XM29 OICW with remote and automatic airburst modes (warbrand2 & Kiruex)
-- Gadkaia Merzost twin rifle abomination (Kiruex)
-- Ultimax 100 reverse-recoil light machine gun (Kiruex)
-- AK47 Flamer (warbrand2)
-- Ash 12 (Kiruex)
-- QLU-11 sniper grenade launcher (Xe-No & GhostNZ)
-- Paint Sprayer (Kiruex)
-- AEK999 (KF redfox)
-- dp28 - shield (KF redfox)
-- Gilboa DBR (KF redfox)
-- M99 (KF redfox)
-- Mac10 w/ bayonet (KF redfox)
-- qbz-95 w/ underbarrel shotgun (KF redfox)
-- RPD w/ bipod (KF redfox)
-- Shumikha Launcher (KF redfox)
-- XM - 556 (KF redfox)
+- Attack dogs (Kiruex)  \
+  ![hud_dog.png](textures/hud_dog.png)
+- Cavalry saber (Kiruex)  \
+  ![hud_sabre.png](textures/hud_sabre.png)
+- KSxS-6 Hunter double-barrel shotgun with double shot mode (Kiruex)  \
+  ![hud_hunter_shotgun.png](textures/hud_hunter_shotgun.png) ![hud_hunter_shotgun_alt.png](textures/hud_hunter_shotgun_alt.png)
+- Demolisher UGV plus remote detonator (Kiruex)  \
+  ![hud_ugv.png](textures/hud_ugv.png) ![hud_ugvradio.png](textures/hud_ugvradio.png)
+- XM29 OICW with remote and automatic airburst modes (warbrand2 & Kiruex)  \
+  ![hud_oicw.png](textures/hud_oicw.png) ![hud_oicw_g.png](textures/hud_oicw_g.png)
+- Gadkaia Merzost twin rifle abomination (Kiruex)  \
+  ![hud_abomination.png](textures/hud_abomination.png)
+- Ultimax 100 reverse-recoil light machine gun (Kiruex)  \
+  ![hud_ultimax.png](textures/hud_ultimax.png) ![hud_ultimax_m.png](textures/hud_ultimax_m.png)
+- AK47 Flamer (warbrand2)  \
+  ![hud_ak47flame.png](textures/hud_ak47flame.png) ![hud_ak47flame_f.png](textures/hud_ak47flame_f.png)
+- Ash 12 (Kiruex)  \
+  ![hud_ash12.png](textures/hud_ash12.png) ![hud_ash12_g.png](textures/hud_ash12_g.png)
+- QLU-11 sniper grenade launcher (Xe-No & GhostNZ)  \
+  ![hud_qlu11.png](textures/hud_qlu11.png)
+- Paint Sprayer (Kiruex)  \
+  ![hud_paintspray.png](textures/hud_paintspray.png) ![hud_paintspray_c.png](textures/hud_paintspray_c.png)
+- AEK999 (KF redfox)  \
+  ![hud_aek999.png](textures/hud_aek999.png)
+- dp28 - shield (KF redfox)  \
+  ![hud_dp28_s.png](textures/hud_dp28_s.png)
+- Gilboa DBR (KF redfox)  \
+  ![hud_gilboa_DBR.png](textures/hud_gilboa_DBR.png)
+- M99 (KF redfox)  \
+  ![hud_M99.png](textures/hud_M99.png)
+- Mac10 w/ bayonet (KF redfox)  \
+  ![hud_Mac10.png](textures/hud_Mac10.png) ![hud_Mac10_bayonet.png](textures/hud_Mac10_bayonet.png)
+- qbz-95 w/ underbarrel shotgun (KF redfox)  \
+  ![hud_qbz-95.png](textures/hud_qbz-95.png)
+- RPD w/ bipod (KF redfox)  \
+  ![hud_RPD.png](textures/hud_RPD.png) ![hud_RPD - bipod.png](textures/hud_RPD - bipod.png)
+- Shumikha Launcher (KF redfox)  \
+  ![hud_Shumikha.png](textures/hud_Shumikha.png)
+- XM - 556 (KF redfox)  \
+  ![hud_XM556.png](textures/hud_XM556.png)
 
 #### Other stuff:
 - Rangefinder binoculars (Unit G17)
