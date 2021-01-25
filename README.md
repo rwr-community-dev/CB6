@@ -39,6 +39,7 @@
   ![hud_Shumikha.png](textures/hud_Shumikha.png)
 - XM - 556 (KF redfox)  \
   ![hud_XM556.png](textures/hud_XM556.png)
+- President Skins (Veliki Shef)
 
 #### Other stuff:
 - Rangefinder binoculars (Unit G17)
