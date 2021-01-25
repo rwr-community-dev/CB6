@@ -24,13 +24,13 @@
     <animation key="recoil" ref="14" />
     <animation state_key="reload" animation_key="reloading, sg552" />
     <animation state_key="next_in_chain_in" animation_key="switch fire mode" /> 
-    <sound key="fire" fileref="qbz-95_us_shot.wav" pitch_variety="0.0" volume="0.9" />
+    <sound key="fire" fileref="qbz-95_us_shot.wav" pitch_variety="0.0" volume="0.7" />
     <sound key="cycle" fileref="mossberg500_cycle.wav" />
     <sound key="reload_one" fileref="mossberg500_reload.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
     <model filename="qbz-95.xml" />
 
-    <hud_icon filename="hud_qbz-95.png" />
+    <hud_icon filename="hud_qbz-95_us.png" />
     <commonness value="0.0" can_respawn_with="0" in_stock="0" />
     <inventory encumbrance="10.0" price="95" />
     

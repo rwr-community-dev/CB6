@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary.weapon" key="RPD_b.weapon">
+<weapon file="base_primary.weapon" key="rpd_b.weapon">
     <tag name="machine gun" />
-    <specification
-  retrigger_time="0.092"
-  accuracy_factor="0.56"
-  sustained_fire_grow_step="0.8"
-  sustained_fire_diminish_rate="0.82"
-  magazine_size="120"
-  can_shoot_standing="0"
-  can_shoot_crouching="0"
-  suppressed="0"
-  name="RPD - bipod"
-  class="0"
+    <specification 
+  retrigger_time="0.092" 
+  accuracy_factor="0.56" 
+  sustained_fire_grow_step="0.8" 
+  sustained_fire_diminish_rate="0.82" 
+  magazine_size="120" 
+  can_shoot_standing="0" 
+  can_shoot_crouching="0" 
+  suppressed="0" 
+  name="RPD - bipod" 
+  class="0" 
   projectile_speed="92.0"
-	barrel_offset="0.65"  />
+	barrel_offset="0.55"  />
 
-	<next_in_chain key="RPD.weapon" share_ammo="1" />
+	<next_in_chain key="rpd.weapon" share_ammo="1" />
 
 
     <animation key="recoil" ref="12" />
@@ -23,26 +23,30 @@
     <animation key="recoil" ref="14" />
     <animation state_key="reload" animation_key="reloading, pkm" />
 		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 1" />
-		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 2" />      
     <animation key="hold" ref="32" />
     <animation key="hold_on_wall" ref="1" />
     <animation state_key="walking" animation_key="walking, heavy weapon" />
     <animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
 
-    <sound key="fire" fileref="RPD_shot.wav" pitch_variety="0.05" volume="0.6" />
+    <sound key="fire" fileref="rpd_shot.wav" pitch_variety="0.05" volume="0.6" />
     <sound key="magazine_out" fileref="mg_clip_out.wav" />
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
-    <model filename="RPD - bipod.xml" />
+    <model filename="rpd_b.xml" />
 
-    <hud_icon filename="hud_RPD - bipod.png" />
+    <hud_icon filename="hud_rpd_b.png" />
     <commonness value="0.0" can_respawn_with="0" in_stock="0"/>
-    <inventory encumbrance="10.0" price="360.0" />
+    <inventory encumbrance="10.0" price="480.0" />
 
     <weak_hand_hold offset="0.4" />
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.60" kill_decay_start_time="0.30" kill_decay_end_time="0.7" />
     </projectile>
+
+	<capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.6" />
+
     <modifier class="speed" value="-0.092" />
 </weapon>

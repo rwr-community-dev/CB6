@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="bullet" name="Dragon fire" slot="1" pulldown_in_air="4.0" time_to_live="2" key="M99.projectile">
+<projectile class="bullet" name="M99" slot="1" pulldown_in_air="4.0" time_to_live="2" key="m99.projectile">
 	<tag name="flamethrower_flame"/>
 	
 	<trigger class="impact" />
 	<result
 	class="blast"
-	radius="1.4"
-	damage="0.16"
+	radius="1.6"
+	damage="0.2"
 	push="0.01"  
                 decal="0"
 	/>
@@ -14,6 +14,9 @@
 	<rotation class="motion" />
 	
 	<commonness value="0.0" />
+
+    <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
+
 
     <sound class="result" key="other" fileref="burn.wav" />
     <sound class="result" key="vehicle" fileref="burn.wav" />
@@ -35,11 +38,18 @@
                 <effect class="result" key="static_object" copy="terrain" />
                 <effect class="result" key="shield" copy="terrain" />
 
+    <effect class="result" key="vehicle" ref="Burst" use_surface_color="1" />
+    <effect class="result" key="vehicle" ref="LowDust" />
+    <effect class="result" key="static_object" ref="Burst" use_surface_color="1" />
+    <effect class="result" key="static_object" ref="LowDust" />
+    <effect class="result" key="character" ref="Burst" use_surface_color="1" />
+    <effect class="result" key="character" ref="LowDust" />
+
 	<!-- <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" /> -->
 	<effect class="result" type="splat_map" surface_tag="" size="1" atlas_index="4" layer="0" />
 
+                <effect class="activated" ref="Propulsion_gl" />
 
-
-	<trail probability="1.0" key="FlamethrowerTrail" />
+    <trail probability="1.0" />
 
 </projectile>

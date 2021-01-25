@@ -299,15 +299,19 @@
 
   <weapon file="aek999.weapon" />
   <weapon file="dp28_s.weapon" />
-  <weapon file="Gilboa.weapon" />
-  <weapon file="M99.weapon" />
-  <weapon file="Mac10.weapon" />
-  <weapon file="Mac10_bayonet.weapon" />
+  <weapon file="gilboa.weapon" />
+  <weapon file="m99.weapon" />
+  <weapon file="mac10.weapon" />
+  <weapon file="mac10_bayonet.weapon" />
   <weapon file="qbz-95.weapon" />
   <weapon file="qbz-95_us.weapon" />
-  <weapon file="RPD.weapon" />
-  <weapon file="RPD_b.weapon" />
-  <weapon file="Shumikha.weapon" />
+  <weapon file="rpd.weapon" />
+  <weapon file="rpd_b.weapon" />
+  <weapon file="shumikha.weapon" />
   <weapon file="xm556.weapon" />
+  <weapon file="colt_ranger_quick.weapon" />
+  <weapon file="gaint_sword.weapon" />
+  <weapon file="m30_rifle.weapon" />
+  <weapon file="m30_shotgun.weapon" />
 
 </weapons>

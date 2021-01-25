@@ -5,7 +5,7 @@
 
 
     <trigger class="impact" />
-    <result class="spawn" instance_class="grenade" instance_key="firenade_sub.projectile" min_amount="10" max_amount="10" offset="0 4.0 0" position_spread="2 -4" direction_spread="0.0 0.0" />   
+    <result class="spawn" instance_class="grenade" instance_key="firenade_sub.projectile" min_amount="6" max_amount="6" offset="0 4.0 0" position_spread="2 -4" direction_spread="0.0 0.0" />   
 
     <rotation class="random" />
 
@@ -15,12 +15,8 @@
 
     <!-- projectile slot 0 is used for hand grenade items currently -->
     <!-- bound to change -->
-    <commonness value="0.03" />
-    <capacity value="2" source="rank" source_value="0.0" />
-    <capacity value="3" source="rank" source_value="0.2" />
-    <inventory encumbrance="3.0" price="2.0" />
-
     <commonness value="0.0" />
+
 
     <sound class="result" key="other" fileref="flamethrower.wav" volume="3"  />
 

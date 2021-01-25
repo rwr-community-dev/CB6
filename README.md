@@ -40,6 +40,12 @@
 - XM - 556 (KF redfox)  \
   ![hud_XM556.png](textures/hud_XM556.png)
 - President Skins (Veliki Shef)
+- Colt Ranger (KF redfox)  \
+  ![hud_colt_ranger_quick.png](textures/hud_colt_ranger_quick.png)
+- Gaint Sword (KF redfox)  \
+  ![hud_gaint_sword.png](textures/hud_gaint_sword.png)
+- M30 rifle/shotgun (KF redfox)  \
+  ![hud_m30_rifle.png](textures/hud_m30_rifle.png) ![hud_m30_shotgun.png](textures/hud_m30_shotgun.png)
 
 #### Other stuff:
 - Rangefinder binoculars (Unit G17)
