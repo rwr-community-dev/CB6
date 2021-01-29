@@ -6,9 +6,10 @@
 	<result
 	class="blast"
 	radius="1.6"
-	damage="0.2"
-	push="0.01"  
+	damage="0.25"
+	push="0.02"  
                 decal="0"
+	character_state="death"
 	/>
 
 	<rotation class="motion" />
@@ -29,9 +30,10 @@
 	<!-- effect class="activated" ref="FlamePropulsion" lighting="0" /> -->
 	<!-- effect class="activated" ref="FlameSparkle" lighting="0" /> -->
 
-	<effect class="result" key="terrain" ref="SmokePropulsionEnd" />
-	<effect class="result" key="terrain" ref="FlamePropulsionEnd" lighting="0" />
+	<effect class="result" key="terrain" ref="FlamePropulsionEnd" lighting="0" /> 
 	<effect class="result" key="terrain" ref="FlameSparkleEnd" lighting="0" />
+	<effect class="result" key="terrain" ref="DragonSparkle" lighting="0" />
+	<effect class="result" key="terrain" ref="DragonFlame2" lighting="0" />    
     
                 <effect class="result" key="vehicle" copy="terrain" />
                 <effect class="result" key="character" copy="terrain" />
