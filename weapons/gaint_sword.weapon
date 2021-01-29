@@ -38,8 +38,9 @@
     <animation state_key="stabbing" 		animation_key="gaint sword stab" />
 
 
-<sound key="effect" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="1.0" />	
-<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.8" />      
+<sound key="effect" fileref="gaint_sword_swing_01.wav" pitch_variety="0.0" volume="0.6" />
+<sound key="effect" fileref="gaint_sword_swing_02.wav" pitch_variety="0.0" volume="0.6" />	
+<sound key="stab" fileref="gaint_sword_stab.wav" pitch_variety="0.05" volume="0.6" />      
 <sound key="fire" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.5" />
 <sound key="stab_hit" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.5" />
 
@@ -71,5 +72,6 @@
 	<stance state_key="prone" accuracy="1.0" />
 	
 	<modifier class="speed" value="+0.05" />
-	
+
+	    <shield offset="-0.3 0.0 0" extent="0.6 4.0 0.4" />
 </weapon>
