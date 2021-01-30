@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <models>
 	<!-- -------------------------- -->
+	<!-- special-specific medic grey -->
+	<model filename="soldier_medic_grey.xml">
+		<requirement class="weapon" slot="1" key="medikit.weapon"/>
+		<requirement class="rank" range="0 100" />
+	</model>
+	<model filename="soldier_medic_vest_grey.xml">
+		<requirement class="weapon" slot="1" key="medikit.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
+		<requirement class="rank" range="0 100" />
+	</model>
+
+	<!-- -------------------------- -->
 	<model filename="soldier_b3_vest.xml">
 		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
 		<requirement class="rank" range="0 100" />
