@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <models>
-
 	<!-- -------------------------- -->
 	<!-- special-specific medic grey -->
 	<model filename="soldier_medic_grey.xml">
@@ -12,6 +11,7 @@
 		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
 		<requirement class="rank" range="0 100" />
 	</model>
+
 	<!-- -------------------------- -->
 	<model filename="soldier_b3_vest.xml">
 		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
@@ -56,7 +56,7 @@
 	<model filename="soldier_b1eod.xml">
 		<requirement class="carry_item" slot="1" key="eod_6"/>
 		<requirement class="rank" range="0 10000" />
-	</model>    
+	</model>
 
 <!-- -------------------------- -->
 
@@ -83,8 +83,8 @@
 	<model filename="soldier_b_vest_t3.xml">
 		<requirement class="carry_item" slot="1" key="vest3_6"/>
 		<requirement class="rank" range="0 10000" />
-	</model> 
-	
+	</model>
+
 <!-- -------------------------- -->
 
 
@@ -92,27 +92,43 @@
 		<requirement class="carry_item" slot="1" key="costume_werewolf.carry_item"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
-	
+	<model filename="costume_were.xml">
+		<requirement class="carry_item" slot="1" key="costume_werewolf_1"/>
+		<requirement class="rank" range="0 10000" />
+	</model>
 
-	
+
+
 	<!-- -------------------------- -->
 	<model filename="costume_clown.xml">
 		<requirement class="carry_item" slot="1" key="costume_clown.carry_item"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
-	
+	<model filename="costume_clown.xml">
+		<requirement class="carry_item" slot="1" key="costume_clown_1"/>
+		<requirement class="rank" range="0 10000" />
+	</model>
 
-	
+
+
 	<!-- -------------------------- -->
 	<model filename="costume_santa.xml">
 		<requirement class="carry_item" slot="1" key="costume_santa.carry_item"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
-	
-	
+	<model filename="costume_santa.xml">
+		<requirement class="carry_item" slot="1" key="costume_santa_1"/>
+		<requirement class="rank" range="0 10000" />
+	</model>
+
+
 	<!-- -------------------------- -->
 	<model filename="costume_lizard.xml">
 		<requirement class="carry_item" slot="1" key="costume_lizard.carry_item"/>
+		<requirement class="rank" range="0 10000" />
+	</model>
+	<model filename="costume_lizard.xml">
+		<requirement class="carry_item" slot="1" key="costume_lizard_1"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
 
@@ -122,14 +138,18 @@
 		<requirement class="carry_item" slot="1" key="costume_underpants.carry_item"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
-	
-	
+
+
 	<!-- -------------------------- -->
 	<model filename="costume_banana.xml">
 		<requirement class="carry_item" slot="1" key="costume_banana.carry_item"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
-	
+	<model filename="costume_banana.xml">
+		<requirement class="carry_item" slot="1" key="costume_banana_1"/>
+		<requirement class="rank" range="0 10000" />
+	</model>
+
 
 	<!-- -------------------------- -->
 	<model filename="soldier_b1_camo_vest.xml">
@@ -147,17 +167,17 @@
 	<model filename="soldier_b1_camo_vest.xml">
 		<requirement class="carry_item" slot="1" key="camo_3"/>
 		<requirement class="rank" range="0 10000" />
-	</model>	
+	</model>
 	<model filename="soldier_b1_camo_vest.xml">
 		<requirement class="carry_item" slot="1" key="camo_4"/>
 		<requirement class="rank" range="0 10000" />
 	</model>
 
-	
+
 	<!-- -------------------------- -->
 	<!-- black ops -->
 	<!-- -------------------------- -->
-	
+
 	<model filename="soldier_blackops.xml">
 		<requirement class="carry_item" slot="1" key="vest_blackops.carry_item"/>
 		<requirement class="rank" range="0 10000" />
@@ -177,7 +197,7 @@
 	<model filename="president_grey.xml">
 		<requirement class="rank" range="1000 10000" />
   </model>
-    
+
 	<!-- -------------------------- -->
 	<!-- john wick and suits -->
 	<!-- -------------------------- -->
@@ -200,43 +220,48 @@
 		<requirement class="rank" range="0 100" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
-	<model filename="soldier_wick.xml">
+	<model filename="soldier_wickghillie.xml">
 		<requirement class="carry_item" slot="1" key="camouflage_suit.carry_item"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
-	<model filename="soldier_wickops.xml">
+	<model filename="soldier_wickt3.xml">
 		<requirement class="carry_item" slot="1" key="vest3.carry_item"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
-	<model filename="soldier_wickops.xml">
+	<model filename="soldier_wickt3.xml">
 		<requirement class="carry_item" slot="1" key="vest3_2"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
-	<model filename="soldier_wickops.xml">
+	<model filename="soldier_wickt3.xml">
 		<requirement class="carry_item" slot="1" key="vest3_3"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
-	<model filename="soldier_wickops.xml">
+	<model filename="soldier_wickt3.xml">
 		<requirement class="carry_item" slot="1" key="vest3_4"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
-	<model filename="soldier_wickops.xml">
+	<model filename="soldier_wickt3.xml">
 		<requirement class="carry_item" slot="1" key="vest3_5"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
-	<model filename="soldier_wickops.xml">
+	<model filename="soldier_wickt3.xml">
 		<requirement class="carry_item" slot="1" key="vest3_6"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
-	</model> 
+	</model>
 	<model filename="soldier_wickwere.xml">
 		<requirement class="carry_item" slot="1" key="costume_werewolf.carry_item"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="l30p.weapon"/>
+	</model>
+	<model filename="soldier_wickwere.xml">
+		<requirement class="carry_item" slot="1" key="costume_werewolf_1"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
@@ -245,13 +270,28 @@
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
+	<model filename="soldier_wickclown.xml">
+		<requirement class="carry_item" slot="1" key="costume_clown_1"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="l30p.weapon"/>
+	</model>
 	<model filename="soldier_wicksanta.xml">
 		<requirement class="carry_item" slot="1" key="costume_santa.carry_item"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
+	<model filename="soldier_wicksanta.xml">
+		<requirement class="carry_item" slot="1" key="costume_santa_1"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="l30p.weapon"/>
+	</model>
 	<model filename="soldier_wicklizard.xml">
 		<requirement class="carry_item" slot="1" key="costume_lizard.carry_item"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="l30p.weapon"/>
+	</model>
+	<model filename="soldier_wicklizard.xml">
+		<requirement class="carry_item" slot="1" key="costume_lizard_1"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
@@ -299,9 +339,14 @@
 		<requirement class="carry_item" slot="1" key="eod_6"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
-	</model>    
+	</model>
 	<model filename="soldier_wickbanana.xml">
 		<requirement class="carry_item" slot="1" key="costume_banana.carry_item"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="l30p.weapon"/>
+	</model>
+	<model filename="soldier_wickbanana.xml">
+		<requirement class="carry_item" slot="1" key="costume_banana_1"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
@@ -324,7 +369,7 @@
 		<requirement class="carry_item" slot="1" key="camo_3"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
-	</model>	
+	</model>
 	<model filename="soldier_wickcamo.xml">
 		<requirement class="carry_item" slot="1" key="camo_4"/>
 		<requirement class="rank" range="0 10000" />
@@ -334,7 +379,12 @@
 		<requirement class="carry_item" slot="1" key="costume_butcher.carry_item"/>
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
-	</model> 
+	</model>
+	<model filename="soldier_wickpsycho.xml">
+		<requirement class="carry_item" slot="1" key="costume_butcher_1"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="l30p.weapon"/>
+	</model>
 	<model filename="soldier_wickexo.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo.carry_item"/>
 		<requirement class="rank" range="0 10000" />
@@ -354,15 +404,19 @@
 		<requirement class="rank" range="100 10000" />
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 	</model>
-    
+
 	<!-- ----------------->
 	<!-- Psycho Butcher -->
 	<!-- ----------------->
-         
+
     <model filename="soldier_chainsaw.xml">
 		<requirement class="rank" range="0 10000" />
 		<requirement class="carry_item" slot="1" key="costume_butcher.carry_item"/>
-	</model>   
+	</model>
+    <model filename="soldier_chainsaw.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="carry_item" slot="1" key="costume_butcher_1"/>
+	</model>
 
 	<!-- ----------------->
 	<!-- Exo Suit -->
@@ -439,394 +493,397 @@
 		<requirement class="weapon" slot="0" key="ninjato.weapon"/>
 	</model>
 
-<!-- Sword tests  -->
-
-	<!-- ----------------->
-	<!-- Two-handed Sword -->
-	<!-- ----------------->
-  
-	<model filename="soldier_sword_v2.xml">
-		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_v2.xml">
-		<requirement class="carry_item" slot="1" key="vest2_2"/>
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_v2.xml">
-		<requirement class="carry_item" slot="1" key="vest2_3"/>
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-
-	<model filename="soldier_sword_golden.xml">
-		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
-		<requirement class="rank" range="100 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_golden.xml">
-		<requirement class="carry_item" slot="1" key="vest2_2"/>
-		<requirement class="rank" range="100 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_golden.xml">
-		<requirement class="carry_item" slot="1" key="vest2_3"/>
-		<requirement class="rank" range="100 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-
-	<model filename="soldier_sword_eod.xml">
-		<requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>   
-	<model filename="soldier_sword_eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_2"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_3"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_4"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_5"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_6"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>   
-
-	<model filename="soldier_sword_camovest.xml">
-		<requirement class="carry_item" slot="1" key="camo_vest.carry_item"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_camovest.xml">
-		<requirement class="carry_item" slot="1" key="camo_1"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_camovest.xml">
-		<requirement class="carry_item" slot="1" key="camo_2"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_camovest.xml">
-		<requirement class="carry_item" slot="1" key="camo_3"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>	
-	<model filename="soldier_sword_camovest.xml">
-		<requirement class="carry_item" slot="1" key="camo_4"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-
-	<model filename="soldier_sword_v3.xml">
-		<requirement class="carry_item" slot="1" key="vest3.carry_item"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_v3.xml">
-		<requirement class="carry_item" slot="1" key="vest3_2"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_v3.xml">
-		<requirement class="carry_item" slot="1" key="vest3_3"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_v3.xml">
-		<requirement class="carry_item" slot="1" key="vest3_4"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_v3.xml">
-		<requirement class="carry_item" slot="1" key="vest3_5"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model>
-	<model filename="soldier_sword_v3.xml">
-		<requirement class="carry_item" slot="1" key="vest3_6"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model> 
-	<model filename="soldier_sword_balckops.xml">
+	<model filename="soldier_ninja.xml">
 		<requirement class="carry_item" slot="1" key="vest_blackops.carry_item"/>
 		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model> 
-	<model filename="soldier_sword_balckops.xml">
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
+	</model>
+	<model filename="soldier_ninja.xml">
 		<requirement class="carry_item" slot="1" key="stealth1_2"/>
 		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model> 
-	<model filename="soldier_sword_exo.xml">
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
+	</model>
+	<model filename="soldier_ninjaexo.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo.carry_item"/>
 		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model> 
-	<model filename="soldier_sword_exo.xml">
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
+	</model>
+	<model filename="soldier_ninjaexo.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo_1"/>
 		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model> 
-	<model filename="soldier_sword_exo.xml">
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
+	</model>
+	<model filename="soldier_ninjaexo.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo_2"/>
 		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
-	</model> 
-
-<!-- Sword tests  -->
-
-<!-- FOX tests  -->
-
-
-	<!-- ----------------->
-	<!-- dp28 -->
-	<!-- ----------------->
-	<model filename="soldier_dp28eod.xml">
-		<requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="dp28_s.weapon"/>
-	</model>
-	<model filename="soldier_dp28eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_2"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="dp28_s.weapon"/>
-	</model>
-	<model filename="soldier_dp28eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_3"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="dp28_s.weapon"/>
-	</model>
-	<model filename="soldier_dp28eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_4"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="dp28_s.weapon"/>
-	</model>
-	<model filename="soldier_dp28eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_5"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="dp28_s.weapon"/>
-	</model>
-	<model filename="soldier_dp28eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_6"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="dp28_s.weapon"/>
-	</model>   
-<!-- FOX tests  -->
-
-<!-- memories tests  -->
-	<!-- ----------------->
-	<!-- colt ranger quick -->
-	<!-- ----------------->  
-	<model filename="soldier_colt_red.xml">
-		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
-	</model>
-	<model filename="soldier_colt_red.xml">
-		<requirement class="carry_item" slot="1" key="vest2_2"/>
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
-	</model>
-	<model filename="soldier_colt_red.xml">
-		<requirement class="carry_item" slot="1" key="vest2_3"/>
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
 	</model>
 
-	<model filename="soldier_colt_sheriff.xml">
-		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
-		<requirement class="rank" range="100 10000" />
-		<requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
-	</model>
-	<model filename="soldier_colt_sheriff.xml">
-		<requirement class="carry_item" slot="1" key="vest2_2"/>
-		<requirement class="rank" range="100 10000" />
-		<requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
-	</model>
-	<model filename="soldier_colt_sheriff.xml">
-		<requirement class="carry_item" slot="1" key="vest2_3"/>
-		<requirement class="rank" range="100 10000" />
-		<requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
-	</model>
+  <!-- ----------------->
+  <!-- colt ranger quick -->
+  <!-- ----------------->
+  <model filename="soldier_colt_red.xml">
+      <requirement class="carry_item" slot="1" key="vest2.carry_item"/>
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
+  </model>
+  <model filename="soldier_colt_red.xml">
+      <requirement class="carry_item" slot="1" key="vest2_2"/>
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
+  </model>
+  <model filename="soldier_colt_red.xml">
+      <requirement class="carry_item" slot="1" key="vest2_3"/>
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
+  </model>
 
-<!-- memories tests  -->
+  <model filename="soldier_colt_sheriff.xml">
+      <requirement class="carry_item" slot="1" key="vest2.carry_item"/>
+      <requirement class="rank" range="100 10000" />
+      <requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
+  </model>
+  <model filename="soldier_colt_sheriff.xml">
+      <requirement class="carry_item" slot="1" key="vest2_2"/>
+      <requirement class="rank" range="100 10000" />
+      <requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
+  </model>
+  <model filename="soldier_colt_sheriff.xml">
+      <requirement class="carry_item" slot="1" key="vest2_3"/>
+      <requirement class="rank" range="100 10000" />
+      <requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
+  </model>
 
-<!-- FOX tests  -->
+  <!-- ----------------->
+  <!-- dp28 -->
+  <!-- ----------------->
+  <model filename="soldier_dp28eod.xml">
+      <requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="dp28_s.weapon"/>
+  </model>
+  <model filename="soldier_dp28eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_2"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="dp28_s.weapon"/>
+  </model>
+  <model filename="soldier_dp28eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_3"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="dp28_s.weapon"/>
+  </model>
+  <model filename="soldier_dp28eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_4"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="dp28_s.weapon"/>
+  </model>
+  <model filename="soldier_dp28eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_5"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="dp28_s.weapon"/>
+  </model>
+  <model filename="soldier_dp28eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_6"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="dp28_s.weapon"/>
+  </model>
 
-	<!-- ----------------->
-	<!-- Shumikha Launcher -->
-	<!-- ----------------->
-	<model filename="soldier_dp28eod.xml">
-		<requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="Shumikha.weapon"/>
-	</model>
-	<model filename="soldier_dp28eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_2"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="Shumikha.weapon"/>
-	</model>
-	<model filename="soldier_dp28eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_3"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="Shumikha.weapon"/>
-	</model>
-	<model filename="soldier_dp28eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_4"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="Shumikha.weapon"/>
-	</model>
-	<model filename="soldier_dp28eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_5"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="Shumikha.weapon"/>
-	</model>
-	<model filename="soldier_dp28eod.xml">
-		<requirement class="carry_item" slot="1" key="eod_6"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="Shumikha.weapon"/>
-	</model>   
+  <!-- ----------------->
+  <!-- Two-handed Sword -->
+  <!-- ----------------->
+  <model filename="soldier_sword_v2.xml">
+      <requirement class="carry_item" slot="1" key="vest2.carry_item"/>
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_v2.xml">
+      <requirement class="carry_item" slot="1" key="vest2_2"/>
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_v2.xml">
+      <requirement class="carry_item" slot="1" key="vest2_3"/>
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
 
-<!-- FOX tests  -->
+  <model filename="soldier_sword_golden.xml">
+      <requirement class="carry_item" slot="1" key="vest2.carry_item"/>
+      <requirement class="rank" range="100 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_golden.xml">
+      <requirement class="carry_item" slot="1" key="vest2_2"/>
+      <requirement class="rank" range="100 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_golden.xml">
+      <requirement class="carry_item" slot="1" key="vest2_3"/>
+      <requirement class="rank" range="100 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
 
-<!-- Musket tests  -->
+  <model filename="soldier_sword_eod.xml">
+      <requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_2"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_3"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_4"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_5"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_6"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
 
-	<!-- ----------------->
-	<!-- Musket -->
-	<!-- ----------------->  
-	<model filename="soldier_musket_french.xml">
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="musket.weapon"/>
-	</model>
-	<model filename="soldier_musket_french.xml">
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
-	</model>
+  <model filename="soldier_sword_camovest.xml">
+      <requirement class="carry_item" slot="1" key="camo_vest.carry_item"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_camovest.xml">
+      <requirement class="carry_item" slot="1" key="camo_1"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_camovest.xml">
+      <requirement class="carry_item" slot="1" key="camo_2"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_camovest.xml">
+      <requirement class="carry_item" slot="1" key="camo_3"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_camovest.xml">
+      <requirement class="carry_item" slot="1" key="camo_4"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
 
-	<model filename="soldier_musket_french.xml">
-		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="musket.weapon"/>
-	</model>
-	<model filename="soldier_musket_french.xml">
-		<requirement class="carry_item" slot="1" key="vest2_2"/>
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="musket.weapon"/>
-	</model>
-	<model filename="soldier_musket_french.xml">
-		<requirement class="carry_item" slot="1" key="vest2_3"/>
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="musket.weapon"/>
-	</model>
+  <model filename="soldier_sword_v3.xml">
+      <requirement class="carry_item" slot="1" key="vest3.carry_item"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_v3.xml">
+      <requirement class="carry_item" slot="1" key="vest3_2"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_v3.xml">
+      <requirement class="carry_item" slot="1" key="vest3_3"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_v3.xml">
+      <requirement class="carry_item" slot="1" key="vest3_4"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_v3.xml">
+      <requirement class="carry_item" slot="1" key="vest3_5"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_v3.xml">
+      <requirement class="carry_item" slot="1" key="vest3_6"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_balckops.xml">
+      <requirement class="carry_item" slot="1" key="vest_blackops.carry_item"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_balckops.xml">
+      <requirement class="carry_item" slot="1" key="stealth1_2"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_exo.xml">
+      <requirement class="carry_item" slot="1" key="vest_exo.carry_item"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_exo.xml">
+      <requirement class="carry_item" slot="1" key="vest_exo_1"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
+  <model filename="soldier_sword_exo.xml">
+      <requirement class="carry_item" slot="1" key="vest_exo_2"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="gaint_sword.weapon"/>
+  </model>
 
-	<model filename="soldier_musket_french.xml">
-		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
-	</model>
-	<model filename="soldier_musket_french.xml">
-		<requirement class="carry_item" slot="1" key="vest2_2"/>
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
-	</model>
-	<model filename="soldier_musket_french.xml">
-		<requirement class="carry_item" slot="1" key="vest2_3"/>
-		<requirement class="rank" range="0 100" />
-		<requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
-	</model>
+  <!-- ----------------->
+  <!-- Musket -->
+  <!-- ----------------->
+  <model filename="soldier_musket_french.xml">
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="musket.weapon"/>
+  </model>
+  <model filename="soldier_musket_french.xml">
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
+  </model>
 
+  <model filename="soldier_musket_french.xml">
+      <requirement class="carry_item" slot="1" key="vest2.carry_item"/>
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="musket.weapon"/>
+  </model>
+  <model filename="soldier_musket_french.xml">
+      <requirement class="carry_item" slot="1" key="vest2_2"/>
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="musket.weapon"/>
+  </model>
+  <model filename="soldier_musket_french.xml">
+      <requirement class="carry_item" slot="1" key="vest2_3"/>
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="musket.weapon"/>
+  </model>
 
-	<model filename="soldier_musket_general.xml">
-		<requirement class="rank" range="100 10000" />
-		<requirement class="weapon" slot="0" key="musket.weapon"/>
-	</model>
-
-	<model filename="soldier_musket_general.xml">
-		<requirement class="rank" range="100 10000" />
-		<requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
-	</model>
-
-
-	<model filename="soldier_musket_america.xml">
-		<requirement class="carry_item" slot="1" key="vest3.carry_item"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="musket.weapon"/>
-	</model>
-	<model filename="soldier_musket_america.xml">
-		<requirement class="carry_item" slot="1" key="vest3_2"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="musket.weapon"/>
-	</model>
-	<model filename="soldier_musket_america.xml">
-		<requirement class="carry_item" slot="1" key="vest3_3"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="musket.weapon"/>
-	</model>
-	<model filename="soldier_musket_america.xml">
-		<requirement class="carry_item" slot="1" key="vest3_4"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="musket.weapon"/>
-	</model>
-	<model filename="soldier_musket_america.xml">
-		<requirement class="carry_item" slot="1" key="vest3_5"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="musket.weapon"/>
-	</model>
-	<model filename="soldier_musket_america.xml">
-		<requirement class="carry_item" slot="1" key="vest3_6"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="musket.weapon"/>
-	</model> 
-
-	<model filename="soldier_musket_america.xml">
-		<requirement class="carry_item" slot="1" key="vest3.carry_item"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
-	</model>
-	<model filename="soldier_musket_america.xml">
-		<requirement class="carry_item" slot="1" key="vest3_2"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
-	</model>
-	<model filename="soldier_musket_america.xml">
-		<requirement class="carry_item" slot="1" key="vest3_3"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
-	</model>
-	<model filename="soldier_musket_america.xml">
-		<requirement class="carry_item" slot="1" key="vest3_4"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
-	</model>
-	<model filename="soldier_musket_america.xml">
-		<requirement class="carry_item" slot="1" key="vest3_5"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
-	</model>
-	<model filename="soldier_musket_america.xml">
-		<requirement class="carry_item" slot="1" key="vest3_6"/>
-		<requirement class="rank" range="0 10000" />
-		<requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
-	</model> 
-<!-- Musket tests  -->
+  <model filename="soldier_musket_french.xml">
+      <requirement class="carry_item" slot="1" key="vest2.carry_item"/>
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
+  </model>
+  <model filename="soldier_musket_french.xml">
+      <requirement class="carry_item" slot="1" key="vest2_2"/>
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
+  </model>
+  <model filename="soldier_musket_french.xml">
+      <requirement class="carry_item" slot="1" key="vest2_3"/>
+      <requirement class="rank" range="0 100" />
+      <requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
+  </model>
 
 
+  <model filename="soldier_musket_general.xml">
+      <requirement class="rank" range="100 10000" />
+      <requirement class="weapon" slot="0" key="musket.weapon"/>
+  </model>
 
-</models>
+  <model filename="soldier_musket_general.xml">
+      <requirement class="rank" range="100 10000" />
+      <requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
+  </model>
+
+
+  <model filename="soldier_musket_america.xml">
+      <requirement class="carry_item" slot="1" key="vest3.carry_item"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="musket.weapon"/>
+  </model>
+  <model filename="soldier_musket_america.xml">
+      <requirement class="carry_item" slot="1" key="vest3_2"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="musket.weapon"/>
+  </model>
+  <model filename="soldier_musket_america.xml">
+      <requirement class="carry_item" slot="1" key="vest3_3"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="musket.weapon"/>
+  </model>
+  <model filename="soldier_musket_america.xml">
+      <requirement class="carry_item" slot="1" key="vest3_4"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="musket.weapon"/>
+  </model>
+  <model filename="soldier_musket_america.xml">
+      <requirement class="carry_item" slot="1" key="vest3_5"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="musket.weapon"/>
+  </model>
+  <model filename="soldier_musket_america.xml">
+      <requirement class="carry_item" slot="1" key="vest3_6"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="musket.weapon"/>
+  </model>
+
+  <model filename="soldier_musket_america.xml">
+      <requirement class="carry_item" slot="1" key="vest3.carry_item"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
+  </model>
+  <model filename="soldier_musket_america.xml">
+      <requirement class="carry_item" slot="1" key="vest3_2"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
+  </model>
+  <model filename="soldier_musket_america.xml">
+      <requirement class="carry_item" slot="1" key="vest3_3"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
+  </model>
+  <model filename="soldier_musket_america.xml">
+      <requirement class="carry_item" slot="1" key="vest3_4"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
+  </model>
+  <model filename="soldier_musket_america.xml">
+      <requirement class="carry_item" slot="1" key="vest3_5"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
+  </model>
+  <model filename="soldier_musket_america.xml">
+      <requirement class="carry_item" slot="1" key="vest3_6"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
+  </model>
+
+  <!-- ----------------->
+  <!-- Shumikha Launcher -->
+  <!-- ----------------->
+  <model filename="soldier_dp28eod.xml">
+      <requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+  </model>
+  <model filename="soldier_dp28eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_2"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+  </model>
+  <model filename="soldier_dp28eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_3"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+  </model>
+  <model filename="soldier_dp28eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_4"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+  </model>
+  <model filename="soldier_dp28eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_5"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+  </model>
+  <model filename="soldier_dp28eod.xml">
+      <requirement class="carry_item" slot="1" key="eod_6"/>
+      <requirement class="rank" range="0 10000" />
+      <requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+  </model>   
