@@ -11,6 +11,16 @@
 		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
 		<requirement class="rank" range="0 100" />
 	</model>
+	<model filename="soldier_medic_vest_green.xml">
+		<requirement class="weapon" slot="1" key="medikit.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest2_2"/>
+		<requirement class="rank" range="0 100" />
+	</model>
+	<model filename="soldier_medic_vest_green.xml">
+		<requirement class="weapon" slot="1" key="medikit.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest2_3"/>
+		<requirement class="rank" range="0 100" />
+	</model>
 
 	<!-- -------------------------- -->
 	<model filename="soldier_a1_vest.xml">
