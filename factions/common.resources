@@ -367,6 +367,8 @@
   <weapon key='cmgl-12.weapon' />
   <weapon key='x12_xrep.weapon' />
 
+  <vehicle key="tank_merkava.vehicle" />
+
 <!-- testing  -->
 	<weapon key="stoner62.weapon" />
 	<weapon key="barrett_m107.weapon" />
