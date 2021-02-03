@@ -49,7 +49,7 @@
 - CMGL-12 (Waltarron)  \
   ![hud_cmgl-12.png](textures/hud_cmgl-12.png)
 - X12-XREP (Waltarron)  \
-  ![hud_x12_xrep.png](hud_x12_xrep.png)
+  ![hud_x12_xrep.png](textures/hud_x12_xrep.png)
 - Merkava Tank
 
 
@@ -96,9 +96,9 @@
 
 
 #### What's left:
-- M30 Drilling with different shell types (Unit G17)
-- M4 Carbine w/ M203 underbarrel grenade launcher (Unit G17)
-- M4 or G36 w/ M26 MASS underbarrel shotgun (Seveleven)
+- ~~M30 Drilling with different shell types (Unit G17)~~
+- ~~M4 Carbine w/ M203 underbarrel grenade launcher (Unit G17)~~
+- ~~M4 or G36 w/ M26 MASS underbarrel shotgun (Seveleven)~~
 - Other CB6 submissions
 - AA-12 Frag and PAW-20 still need rebalancing and anti-desync solution
 - Map18 community project + Merkava tank
