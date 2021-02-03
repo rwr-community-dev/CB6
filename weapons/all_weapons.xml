@@ -314,5 +314,6 @@
   <weapon file="m30_rifle.weapon" />
   <weapon file="m30_shotgun.weapon" />
   <weapon file='cmgl-12.weapon' />
+  <weapon file="x12_xrep.weapon" />
 
 </weapons>
