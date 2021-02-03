@@ -46,6 +46,12 @@
   ![hud_gaint_sword.png](textures/hud_gaint_sword.png)
 - M30 rifle/shotgun (KF redfox)  \
   ![hud_m30_rifle.png](textures/hud_m30_rifle.png) ![hud_m30_shotgun.png](textures/hud_m30_shotgun.png)
+- CMGL-12 (Waltarron)  \
+  ![hud_cmgl-12.png](textures/hud_cmgl-12.png)
+- X12-XREP (Waltarron)  \
+  ![hud_x12_xrep.png](hud_x12_xrep.png)
+- Merkava Tank
+
 
 #### Other stuff:
 - Rangefinder binoculars (Unit G17)
@@ -86,6 +92,7 @@
 - Mossberg 500, M240, IMI Negev and PKM commonness reduced
 - Black Ops vest can survive one small blast (reason for change: grenadiers)
 - AI soldiers now have 1/5 chance to spawn with Vest, type III instead of  Vest, type II (reason for change: variety)
+- PF-98 rocket damage buffed from 5.2 to 6.4 (proposed by warbrand2) so that it one shots weakest APC, cripples middle APC, and moderately damages the big APC
 
 
 #### What's left:
