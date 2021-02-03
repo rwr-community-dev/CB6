@@ -86,6 +86,6 @@
   <!-- <projectile file="firecracker.projectile" />
 
   <projectile file="firenade.projectile" /> -->
-  <projectile file="M99.projectile" />
+  <!-- <projectile file="M99.projectile" /> -->
 
 </projectiles>
