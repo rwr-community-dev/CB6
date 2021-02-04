@@ -359,10 +359,12 @@
   <weapon key="rpd.weapon" />
   <weapon key="shumikha.weapon" />
   <weapon key="xm556.weapon" />
+  <weapon key="colt_ranger_accurate.weapon" />
   <weapon key="colt_ranger_quick.weapon" />
   <weapon key="gaint_sword.weapon" />
   <weapon key="m30_rifle.weapon" />
   <weapon key="m30_shotgun.weapon" />
+
 
 <!-- testing  -->
 	<weapon key="stoner62.weapon" />
