@@ -315,5 +315,10 @@
   <weapon file="m30_rifle.weapon" />
   <weapon file="m30_shotgun.weapon" />
 
+  <weapon file='cmgl-12.weapon' />
+  <weapon file="x12_xrep.weapon" />
+
+  <weapon file="tank_cannon_merkava.weapon" />
+	<weapon file="tank_mortar_merkava.weapon" />
 
 </weapons>

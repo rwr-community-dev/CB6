@@ -79,14 +79,14 @@
 
 
 <!-- CB#6 -->
-
-  <projectile file="selfstun.projectile" />
-  <projectile file="ugv_blast.projectile" />
+  <!-- note: only throwables not referenced elsewhere required here - see the lack of xm25.projectile because wep imports it -->
+  <!-- <projectile file="selfstun.projectile" /> -->
+  <!-- <projectile file="ugv_blast.projectile" /> -->
   <projectile file="ugv.projectile" />
   <!-- <projectile file="firecracker.projectile" />
 
   <projectile file="firenade.projectile" /> -->
-  <projectile file="M99.projectile" />
+  <!-- <projectile file="M99.projectile" /> -->
 
   <projectile file="firenade_sub.projectile" />
 

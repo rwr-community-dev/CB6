@@ -365,6 +365,10 @@
   <weapon key="m30_rifle.weapon" />
   <weapon key="m30_shotgun.weapon" />
 
+  <weapon key='cmgl-12.weapon' />
+  <weapon key='x12_xrep.weapon' />
+
+  <vehicle key="tank_merkava.vehicle" />
 
 <!-- testing  -->
 	<weapon key="stoner62.weapon" />
