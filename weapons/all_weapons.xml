@@ -309,6 +309,7 @@
   <weapon file="rpd_b.weapon" />
   <weapon file="shumikha.weapon" />
   <weapon file="xm556.weapon" />
+  <weapon file="colt_ranger_accurate.weapon" />
   <weapon file="colt_ranger_quick.weapon" />
   <weapon file="gaint_sword.weapon" />
   <weapon file="m30_rifle.weapon" />

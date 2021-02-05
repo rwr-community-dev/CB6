@@ -563,6 +563,38 @@
       <requirement class="weapon" slot="0" key="colt_ranger_quick.weapon"/>
   </model>
 
+	<model filename="soldier_colt_red.xml">
+		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
+		<requirement class="rank" range="0 100" />
+		<requirement class="weapon" slot="0" key="colt_ranger_accurate.weapon"/>
+	</model>
+	<model filename="soldier_colt_red.xml">
+		<requirement class="carry_item" slot="1" key="vest2_2"/>
+		<requirement class="rank" range="0 100" />
+		<requirement class="weapon" slot="0" key="colt_ranger_accurate.weapon"/>
+	</model>
+	<model filename="soldier_colt_red.xml">
+		<requirement class="carry_item" slot="1" key="vest2_3"/>
+		<requirement class="rank" range="0 100" />
+		<requirement class="weapon" slot="0" key="colt_ranger_accurate.weapon"/>
+	</model>
+
+	<model filename="soldier_colt_sheriff.xml">
+		<requirement class="carry_item" slot="1" key="vest2.carry_item"/>
+		<requirement class="rank" range="100 10000" />
+		<requirement class="weapon" slot="0" key="colt_ranger_accurate.weapon"/>
+	</model>
+	<model filename="soldier_colt_sheriff.xml">
+		<requirement class="carry_item" slot="1" key="vest2_2"/>
+		<requirement class="rank" range="100 10000" />
+		<requirement class="weapon" slot="0" key="colt_ranger_accurate.weapon"/>
+	</model>
+	<model filename="soldier_colt_sheriff.xml">
+		<requirement class="carry_item" slot="1" key="vest2_3"/>
+		<requirement class="rank" range="100 10000" />
+		<requirement class="weapon" slot="0" key="colt_ranger_accurate.weapon"/>
+	</model>
+
   <!-- ----------------->
   <!-- dp28 -->
   <!-- ----------------->
@@ -869,30 +901,30 @@
   <model filename="soldier_dp28eod.xml">
       <requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
       <requirement class="rank" range="0 10000" />
-      <requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+      <requirement class="weapon" slot="0" key="shumikha.weapon"/>
   </model>
   <model filename="soldier_dp28eod.xml">
       <requirement class="carry_item" slot="1" key="eod_2"/>
       <requirement class="rank" range="0 10000" />
-      <requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+      <requirement class="weapon" slot="0" key="shumikha.weapon"/>
   </model>
   <model filename="soldier_dp28eod.xml">
       <requirement class="carry_item" slot="1" key="eod_3"/>
       <requirement class="rank" range="0 10000" />
-      <requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+      <requirement class="weapon" slot="0" key="shumikha.weapon"/>
   </model>
   <model filename="soldier_dp28eod.xml">
       <requirement class="carry_item" slot="1" key="eod_4"/>
       <requirement class="rank" range="0 10000" />
-      <requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+      <requirement class="weapon" slot="0" key="shumikha.weapon"/>
   </model>
   <model filename="soldier_dp28eod.xml">
       <requirement class="carry_item" slot="1" key="eod_5"/>
       <requirement class="rank" range="0 10000" />
-      <requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+      <requirement class="weapon" slot="0" key="shumikha.weapon"/>
   </model>
   <model filename="soldier_dp28eod.xml">
       <requirement class="carry_item" slot="1" key="eod_6"/>
       <requirement class="rank" range="0 10000" />
-      <requirement class="weapon" slot="0" key="Shumikha.weapon"/>
+      <requirement class="weapon" slot="0" key="shumikha.weapon"/>
   </model>   

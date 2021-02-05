@@ -88,4 +88,7 @@
   <projectile file="firenade.projectile" /> -->
   <!-- <projectile file="M99.projectile" /> -->
 
+  <projectile file="firenade_sub.projectile" />
+
+
 </projectiles>
