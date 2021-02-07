@@ -343,6 +343,8 @@ class BasicCommandHandler : Tracker {
 			fillInventory(senderId);
 		} else if (checkCommand(message, "merkava")) {
 			spawnInstanceNearPlayer(senderId, "tank_merkava.vehicle", "vehicle", 0);
+		} else if (checkCommand(message, "vfs")) {
+			spawnInstanceNearPlayer(senderId, "vfs_spawn.vehicle", "vehicle", 0);
 		}
 	}
 

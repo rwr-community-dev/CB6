@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="m16a4_support.weapon" key="vfs_shield.weapon">
+    <model filename="" />
+    <shield offset="-0.55 0.0 0" extent="0.8 1.0 0.6" />    
+</weapon>

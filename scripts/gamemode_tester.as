@@ -2,7 +2,7 @@
 #include "metagame.as"
 #include "log.as"
 
-// generic trackers
+// generic trackers 
 #include "path://media/packages/_CB6/scripts"
 #include "basic_command_handler.as"
 #include "emp_grenade.as"
@@ -13,6 +13,8 @@
 #include "squad_equipment_kit.as"
 #include "call_marker_tracker.as"
 #include "rangefinder.as"
+#include "spawn_with_dir.as"
+
 
 // --------------------------------------------
 class GameModeTester : Metagame {
@@ -41,6 +43,7 @@ class GameModeTester : Metagame {
 		addTracker(RepairCrane(this));
 		addTracker(SquadEquipmentKit(this));
 		addTracker(RangeFinder(this));
+		addTracker(SpawnWithDir(this));
 
 		array<CallMarkerConfig@> configs = {
 		//CallMarkerConfig(string key, int atlasIndex = 0, float size = 2.0, float range = 1.0, string text = "")
