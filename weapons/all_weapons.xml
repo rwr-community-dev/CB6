@@ -321,4 +321,16 @@
   <weapon file="tank_cannon_merkava.weapon" />
 	<weapon file="tank_mortar_merkava.weapon" />
 
+	<weapon file="vfs_atj.weapon" />
+	<weapon file="vfs_buggy_mg.weapon" />
+	<weapon file="vfs_migu.weapon" />
+<weapon file="vfs_shield.weapon" />
+<weapon file="mod_au.weapon" />
+<weapon file="mod_ap.weapon" />
+<weapon file="mod_at.weapon" />
+<weapon file="mod_vi.weapon" />
+<weapon file="mod_ap_resource.weapon" />
+<weapon file="mod_at_resource.weapon" />
+<weapon file="mod_au_resource.weapon" />
+
 </weapons>

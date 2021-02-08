@@ -1,0 +1,28 @@
+<vehicle file="vfs_base.vehicle" name="vfs[AU]" key="vfs_au.vehicle" >
+
+
+	<physics max_health="8.4" mass="4.5" extent="2.82 0.0 5.09" offset="0 0.0 0.0" top_offset="0 3.77 0" collision_model_pos="0 1.1 0.029" collision_model_extent="2.557 2.1 4.83" visual_offset="0 0.25 0.0" friction_offset="0.0" drag_offset="-0.05" />  
+	
+
+<turret offset="-0.040 1.36 0.1" weapon_key="buggy_mg.weapon" weapon_offset="0.0 0.023 0.35" weapon_recoil="0.0" max_rotation_step="0.0002" rotation_range="1.57" /><!--just for visual item-->
+
+<turret offset="-0.60 1.64 -2.07" weapon_key="vfs_shield.weapon" weapon_offset="0.0 0.89 0.0" rotation="3.14" weapon_recoil="0.0" max_rotation_step="0.0002" rotation_range="6.28" />
+<turret offset="0.60 1.64 -2.07" weapon_key="vfs_shield.weapon" weapon_offset="0.0 0.89 0.0" rotation="3.14" weapon_recoil="0.0" max_rotation_step="0.0002" rotation_range="6.28" />
+
+<visual class="chassis" mesh_filename="vfs_au_body.mesh" texture_filename="vfs_au_body.png" />
+	<visual class="chassis" key="broken" mesh_filename="vfs_body_break.mesh" texture_filename="vfs_body_broken.png" />
+
+
+
+
+ <character_slot type="passenger" position="-0.54 1.25 -2.00" rotation="-0.78" exit_rotation="-3.14" hiding="0" animation_key="tank mg still" marker_offset="0 1.13 0.15" />
+<character_slot type="passenger" position="0.54 1.25 -2.00" rotation="0.78" exit_rotation="-3.14" hiding="0" animation_key="tank mg still" marker_offset="0 1.13 0.15" />
+
+
+
+<visual class="turret" turret_index="0" mesh_filename="empty.mesh" texture_filename="" />
+<visual class="turret" turret_index="1" mesh_filename="vfsm_am.mesh" texture_filename="vfsm_am.png" />
+
+<visual class="turret" key="broken" turret_index="1" mesh_filename="vfsm_am.mesh" texture_filename="vfsm_am_broken.png" />
+
+	</vehicle>
