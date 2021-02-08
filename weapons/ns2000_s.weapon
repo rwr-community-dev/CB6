@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="ns2000.weapon">
+<weapon file="base_primary_rare.weapon" key="ns2000_s.weapon">
     <tag name="cqb" />
     <specification retrigger_time="-1.0" 
-    accuracy_factor="0.8" 
+    accuracy_factor="0.9" 
     sustained_fire_grow_step="2.0" 
     sustained_fire_diminish_rate="0.9" 
     magazine_size="5" 
     can_shoot_standing="1" 
     suppressed="0" 
-    name="Neostead 2000 - buckshot" 
+    name="Neostead 2000 - slug" 
     class="1" 
     reload_one_at_a_time="1" 
     sight_range_modifier="1.0" 
     projectile_speed="90.0" 
-    projectiles_per_shot="4" />
+    projectiles_per_shot="1" />
 
-    <next_in_chain key="ns2000_s.weapon" share_ammo="0" />
+    <next_in_chain key="ns2000.weapon" share_ammo="0" />
 
     <animation key="recoil" ref="27" />
     <animation key="cycle" ref="28" />
@@ -27,15 +27,15 @@
     <sound class="impact" fileref="rifle_drop.wav" />
     <model filename="ns2000.xml" />
 
-    <hud_icon filename="hud_ns2000.png" />
-    <commonness value="0.0005" can_respawn_with="0" in_stock="1" />
+    <hud_icon filename="hud_ns2000_s.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="0" />
     <inventory encumbrance="10.0" price="100.0" />
 
     <weak_hand_hold offset="0.2" />
-    <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.7" 
-        kill_decay_start_time="0.35" 
-        kill_decay_end_time="0.40" />
+    <projectile file="bullet_ap.projectile">
+        <result class="hit" kill_probability="2.01" 
+        kill_decay_start_time="0.25" 
+        kill_decay_end_time="0.50" />
     </projectile>
     
     <stance state_key="running" accuracy="0.6" />

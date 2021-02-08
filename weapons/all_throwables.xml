@@ -83,24 +83,21 @@
   <!-- <projectile file="selfstun.projectile" /> -->
   <!-- <projectile file="ugv_blast.projectile" /> -->
   <projectile file="ugv.projectile" />
-  <!-- <projectile file="firecracker.projectile" />
+  <!-- <projectile file="firecracker.projectile" /> -->
 
-  <projectile file="firenade.projectile" /> -->
+  <!-- <projectile file="firenade.projectile" /> -->
   <!-- <projectile file="M99.projectile" /> -->
   <!-- <projectile file="barrett_m107.projectile" /> -->
   <!-- <projectile file="gepard_m6_lynx.projectile" /> -->
-<projectile file="m99_sub.projectile" />
+  <projectile file="m99_sub.projectile" />
   <projectile file="firenade_sub.projectile" />
-  <projectile file="50bmg.projectile" />
+  <!-- <projectile file="50bmg.projectile" /> -->
 
-<projectile file="vfs_ap.projectile" />
-                <projectile file="vfs_at.projectile" />
-                <projectile file="vfs_au.projectile" />
-<projectile file="vfs_ap.projectile" />
-<projectile file="vfs_at.projectile" />
-<projectile file="vfs_au.projectile" />
-<projectile file="vfs_javelin.projectile" />
-<projectile file="vfs_flare.projectile" />
+  <!-- <projectile file="vfs_ap.projectile" /> -->
+  <!-- <projectile file="vfs_at.projectile" /> -->
+  <!-- <projectile file="vfs_au.projectile" /> -->
+  <projectile file="vfs_javelin.projectile" />
+  <projectile file="vfs_flare.projectile" />
 
 
 </projectiles>
