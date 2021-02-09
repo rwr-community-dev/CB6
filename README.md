@@ -33,11 +33,11 @@
   ![hud_Mac10.png](textures/hud_Mac10.png) ![hud_Mac10_bayonet.png](textures/hud_Mac10_bayonet.png)
 - qbz-95 w/ underbarrel shotgun (oche34 & KF redfox)  \
   ![hud_qbz-95.png](textures/hud_qbz-95.png)
-- RPD w/ bipod (oche34 &KF redfox)  \
+- RPD w/ bipod (oche34 & KF redfox)  \
   ![hud_RPD.png](textures/hud_RPD.png) ![hud_RPD - bipod.png](textures/hud_RPD - bipod.png)
 - Shumikha Launcher (KF redfox)  \
   ![hud_Shumikha.png](textures/hud_Shumikha.png)
-- XM - 556 (NC0032 &KF redfox)  \
+- XM - 556 (NC0032 & KF redfox)  \
   ![hud_XM556.png](textures/hud_XM556.png)
 - President Skins (Veliki Shef)
 - Colt Ranger (CN memories & KF redfox)  \
@@ -51,7 +51,11 @@
 - X12-XREP (Waltarron)  \
   ![hud_x12_xrep.png](textures/hud_x12_xrep.png)
 - Merkava Tank
-- VFS + workstations
+- VFS moddable vehicle + workstations (KF Redfox & Return_Dirt)
+- F2000EGLM (Waltarron)  \
+  ![hud_f2000eglm.png](textures/hud_f2000eglm.png) ![hud_f2000eglm.png](textures/hud_f2000eglm_g.png)
+- NS2000S (KF Redfox)  \
+  ![hud_ns2000_s.png](textures/hud_ns2000_s.png)
 
 
 #### Other stuff:
@@ -66,11 +70,12 @@
 - 44 Magnum reanimation and rapid fire mode (Kiruex)
 - Ammo backpacks for WB-II Microgun and KAC Chain SAW (warbrand2)
 - Flamethrower rework and fuel backpack (Kiruex)
-- Barrett M107 + lynx rework. Adding .50bmg sub projectile (KF redfox) 
-- Basket adding bayonet and skins (KF redfox) 
+- Barrett M107 + lynx rework. Adding .50bmg sub projectile (KF redfox)
+- Basket adding bayonet and skins (KF redfox)
 - mp5 supressed model rework (ammo guy)
-- Addons added for rpgs (CN memories) 
-- Medic skins (CN memories) 
+- Addons added for rpgs (CN memories)
+- Medic skins (CN memories)
+
 
 #### Rebalancing project:
 - Dragon's Breath projectile gravity decreased
@@ -116,6 +121,7 @@
 - Changed items are available in armory for testing purposes
 - Some unchanged items such as EOD vest, Type III vest, taser, L30P-DUALIST included in armory just to have soldier bonus skins readily available
 - MUSKET COMMONNESS REDUCED TO ZERO TO PREVENT AI SPAWNING WITH IT, REVERT TO 0.2 WHEN DONE TESTING
+
 
 #### Skins:
 ##### Faction:
@@ -196,7 +202,3 @@
 ##### Medics：
 - medkit
 - medkit + V2
-
-
-
-

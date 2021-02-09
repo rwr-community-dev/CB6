@@ -370,6 +370,8 @@
 
   <vehicle key="tank_merkava.vehicle" />
 
+  <weapon key="f2000eglm.weapon" />
+
 <!-- testing  -->
 	<weapon key="stoner62.weapon" />
 	<weapon key="barrett_m107.weapon" />

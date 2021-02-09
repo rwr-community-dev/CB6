@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="m30_shotgun.weapon">
+<weapon file="base_primary_rare.weapon" key="m30_slug.weapon">
     <tag name="cqb" />
     <specification 
 	retrigger_time="0.21" 
-    accuracy_factor="0.84" 
+    accuracy_factor="0.9" 
     sustained_fire_grow_step="3.0" 
     sustained_fire_diminish_rate="0.8" 
     magazine_size="1" 
     can_shoot_standing="1" 
     suppressed="0" 
-    name="Luftwaffen Drilling M30 - buckshot" 
+    name="Luftwaffen Drilling M30 - slug" 
     class="4" 
 burst_shots="1" 
 
     reload_one_at_a_time="0" 
     sight_range_modifier="1.0" 
     projectile_speed="86.0" 
-    projectiles_per_shot="6" 
+    projectiles_per_shot="1" 
 	/>
 
        <animation key="recoil" ref="27" />
@@ -30,20 +30,20 @@ burst_shots="1"
     <sound class="impact" fileref="rifle_drop.wav" />
     <model filename="m30.xml" />
 	
-	<next_in_chain key="m30_slug.weapon" share_ammo="0" />
+	<next_in_chain key="m30_rifle.weapon" share_ammo="0" />
 
-    <hud_icon filename="hud_m30_shotgun.png" />
-    <commonness value="0.0" can_respawn_with="0" in_stock="1" />
+    <hud_icon filename="hud_m30_slug.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="0" />
     <inventory encumbrance="10.0" price="300.0" />
     
   	<capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.3" />    
 
     <weak_hand_hold offset="0.25" />
-    <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.59" 
-        kill_decay_start_time="0.27" 
-        kill_decay_end_time="0.37" />
+    <projectile file="bullet_ap.projectile">
+        <result class="hit" kill_probability="3.01" 
+        kill_decay_start_time="0.17" 
+        kill_decay_end_time="0.47" />
     </projectile>
    
     <modifier class="speed" value="-0.025" />    
