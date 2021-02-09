@@ -21,37 +21,37 @@
   ![hud_qlu11.png](textures/hud_qlu11.png)
 - Paint Sprayer (Kiruex)  \
   ![hud_paintspray.png](textures/hud_paintspray.png) ![hud_paintspray_c.png](textures/hud_paintspray_c.png)
-- AEK999 (KF redfox)  \
+- AEK999 (Marcus & KF redfox)  \
   ![hud_aek999.png](textures/hud_aek999.png)
 - dp28 - shield (KF redfox)  \
   ![hud_dp28_s.png](textures/hud_dp28_s.png)
-- Gilboa DBR (KF redfox)  \
+- Gilboa DBR (NC0032 & KF redfox)  \
   ![hud_gilboa_DBR.png](textures/hud_gilboa_DBR.png)
 - M99 (KF redfox)  \
   ![hud_M99.png](textures/hud_M99.png)
 - Mac10 w/ bayonet (KF redfox)  \
   ![hud_Mac10.png](textures/hud_Mac10.png) ![hud_Mac10_bayonet.png](textures/hud_Mac10_bayonet.png)
-- qbz-95 w/ underbarrel shotgun (KF redfox)  \
+- qbz-95 w/ underbarrel shotgun (oche34 & KF redfox)  \
   ![hud_qbz-95.png](textures/hud_qbz-95.png)
-- RPD w/ bipod (KF redfox)  \
+- RPD w/ bipod (oche34 & KF redfox)  \
   ![hud_RPD.png](textures/hud_RPD.png) ![hud_RPD - bipod.png](textures/hud_RPD - bipod.png)
 - Shumikha Launcher (KF redfox)  \
   ![hud_Shumikha.png](textures/hud_Shumikha.png)
-- XM - 556 (KF redfox)  \
+- XM - 556 (NC0032 & KF redfox)  \
   ![hud_XM556.png](textures/hud_XM556.png)
 - President Skins (Veliki Shef)
-- Colt Ranger (KF redfox)  \
+- Colt Ranger (CN memories & KF redfox)  \
   ![hud_colt_ranger_quick.png](textures/hud_colt_ranger_quick.png)
 - Gaint Sword (KF redfox)  \
   ![hud_gaint_sword.png](textures/hud_gaint_sword.png)
-- M30 rifle/shotgun (KF redfox)  \
+- M30 rifle/shotgun (Unit G17 & CN memories & KF redfox)  \
   ![hud_m30_rifle.png](textures/hud_m30_rifle.png) ![hud_m30_shotgun.png](textures/hud_m30_shotgun.png)
 - CMGL-12 (Waltarron)  \
   ![hud_cmgl-12.png](textures/hud_cmgl-12.png)
 - X12-XREP (Waltarron)  \
   ![hud_x12_xrep.png](textures/hud_x12_xrep.png)
 - Merkava Tank
-- VFS moddable vehicle (KF Redfox/Return_Dirt)
+- VFS moddable vehicle + workstations (KF Redfox & Return_Dirt)
 - F2000EGLM (Waltarron)  \
   ![hud_f2000eglm.png](textures/hud_f2000eglm.png) ![hud_f2000eglm.png](textures/hud_f2000eglm_g.png)
 - NS2000S (KF Redfox)  \
@@ -70,6 +70,11 @@
 - 44 Magnum reanimation and rapid fire mode (Kiruex)
 - Ammo backpacks for WB-II Microgun and KAC Chain SAW (warbrand2)
 - Flamethrower rework and fuel backpack (Kiruex)
+- Barrett M107 + lynx rework. Adding .50bmg sub projectile (KF redfox)
+- Basket adding bayonet and skins (KF redfox)
+- mp5 supressed model rework (ammo guy)
+- Addons added for rpgs (CN memories)
+- Medic skins (CN memories)
 
 
 #### Rebalancing project:
@@ -116,6 +121,7 @@
 - Changed items are available in armory for testing purposes
 - Some unchanged items such as EOD vest, Type III vest, taser, L30P-DUALIST included in armory just to have soldier bonus skins readily available
 - MUSKET COMMONNESS REDUCED TO ZERO TO PREVENT AI SPAWNING WITH IT, REVERT TO 0.2 WHEN DONE TESTING
+
 
 #### Skins:
 ##### Faction:
@@ -173,3 +179,26 @@
 - EOD + Ninjato
 - Ninjato + Golden Knife
 - Ninjato + Cavalry Saber
+
+#####  Medieval armors:
+- Double-handed Sword + V2(five stars)
+- Double-handed Sword + V3
+- Double-handed Sword + camo vest
+- Double-handed Sword + eod
+- Double-handed Sword + black ops
+- Double-handed Sword + exo
+
+##### Tachanka：
+- Shumika + eod
+- dp28 + eod
+
+##### Line infantries：
+- Musket + V2（5stars）
+- Musket + V3
+
+##### Ringers：
+- colt ranger + V2（5stars）
+
+##### Medics：
+- medkit
+- medkit + V2
