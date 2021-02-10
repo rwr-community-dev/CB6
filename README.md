@@ -54,8 +54,6 @@
 - VFS moddable vehicle + workstations (KF Redfox & Return_Dirt)
 - F2000EGLM (Waltarron)  \
   ![hud_f2000eglm.png](textures/hud_f2000eglm.png) ![hud_f2000eglm.png](textures/hud_f2000eglm_g.png)
-- NS2000S (KF Redfox)  \
-  ![hud_ns2000_s.png](textures/hud_ns2000_s.png)
 
 
 #### Other stuff:
@@ -75,6 +73,7 @@
 - mp5 supressed model rework (ammo guy)
 - Addons added for rpgs (CN memories)
 - Medic skins (CN memories)
+- NS2000S (Unit G17 & KF Redfox)
 
 
 #### Rebalancing project:
