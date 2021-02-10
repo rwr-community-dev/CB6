@@ -51,9 +51,13 @@
 - X12-XREP (Waltarron)  \
   ![hud_x12_xrep.png](textures/hud_x12_xrep.png)
 - Merkava Tank (Unit G17)
-- VFS moddable vehicle + workstations (KF Redfox & Return_Dirt)
+- VFS moddable vehicle + workstations (Xe-No & Return_Dirt & KF Redfox)
 - F2000EGLM (Waltarron)  \
   ![hud_f2000eglm.png](textures/hud_f2000eglm.png) ![hud_f2000eglm.png](textures/hud_f2000eglm_g.png)
+- Assault Rifles with Underbarrel Grenade Launchers (Unit G17)  \
+  ![hud_ak47_w_gp25.png](textures/hud_ak47_w_gp25.png) ![hud_ak47_w_gp25_g.png](textures/hud_ak47_w_gp25_g.png)  \
+  ![hud_g36_w_ag36.png](textures/hud_g36_w_ag36.png) ![hud_g36_w_ag36_g.png](textures/hud_g36_w_ag36_g.png)  \
+  ![hud_m16a4_w_m203.png](textures/hud_m16a4_w_m203.png) ![hud_m16a4_w_m203_g.png](textures/hud_m16a4_w_m203_g.png)
 
 
 #### Other stuff:
