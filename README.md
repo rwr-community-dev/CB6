@@ -50,7 +50,7 @@
   ![hud_cmgl-12.png](textures/hud_cmgl-12.png)
 - X12-XREP (Waltarron)  \
   ![hud_x12_xrep.png](textures/hud_x12_xrep.png)
-- Merkava Tank
+- Merkava Tank (Unit G17)
 - VFS moddable vehicle + workstations (KF Redfox & Return_Dirt)
 - F2000EGLM (Waltarron)  \
   ![hud_f2000eglm.png](textures/hud_f2000eglm.png) ![hud_f2000eglm.png](textures/hud_f2000eglm_g.png)
