@@ -81,28 +81,39 @@
 
 
 #### Rebalancing project:
-- Dragon's Breath projectile gravity decreased
-- Flamethrower ballistics redone
-- Chain Saw damage significantly increased to reliably cut down weaker vehicles and emplacements
-- Stoner 62 recoil decreased and recovery increased, decreased stance accuracy rate
-- AAC Honey Badger recoil decreased, range slightly increased
-- ARES Shrike recoil redone to behave similarly to G11, added semi automatic mode
+- Dragon's Breath projectile gravity decreased [pulldown_in_air: 25 -> 18]
+- Flamethrower ballistics redone [-> `<ballistics near_far_distance="100.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="25.0" randomness="0.05" />` ]
+- Chain Saw damage significantly increased to reliably cut down weaker vehicles and emplacements [blast damage: 0.01 -> 0.07]
+- Stoner 62 recoil decreased [sustained_fire_grow_step: 0.4 -> 0.35] and recovery increased [sustained_fire_diminish_rate: 1.2 -> 1.4], decreased stance accuracy rate [<blank> -> `stance_accuracy_rate="1.0"` ?]
+- AAC Honey Badger recoil decreased [sustained_fire_grow_step: 0.38 -> 0.34], range slightly increased [kill_decay_start_time: 0.34 -> 0.36, kill_decay_end_time: 0.52 -> 0.56]
+- ARES Shrike recoil redone to behave similarly to G11 [accuracy_factor: 0.8 -> 0.9, sustained_fire_grow_step: 0.2 -> 0.1, sustained_fire_diminish_rate: 1.4 -> 0.4], added semi automatic mode
 - All shotguns with 0.6 recoil recovery: recovery rate increased to 0.9
-- Mossberg 500 accuracy significantly improved to compensate for less power and projectile amount than SPAS-12
-- Steyr TMP, mini UZI and AEK-919k kill probability and walking accuracy increased, recoil decreased
-- Compound Bow effective range significantly increased
-- Buckshot Bess Musket, PF-98, Sawn-Off Shotgun and Dragon's Breath reload time decreased
-- TTI-Combat Shield range, standing accuracy and reload speed increased
-- M6 Lynx, Barrett M107, APR, M24-A2 and PSG-90 recoil recovery rate increased
-- Dragunov SVD accuracy factor and projectile speed decreased
-- Scorpion Evo III and QCW-05 ranges increased
-- MK23 SOCOM, Beretta 93R recoil and recovery halved
-- Glock 17 fire rate increased
-- Beretta M9 fire rate, range and kill chance increased, recoil slightly decreased
-- M712 Schnellfeuer projectile speed increased
-- Milkor MGL uses a cycle animation instead of retrigger timer to prevent reload spam, reload speed increased
+- Mossberg 500 accuracy significantly improved to compensate for less power and projectile amount than SPAS-12 [accuracy_factor: 0.7 -> 0.8, sustained_fire_diminish_rate: 0.6 -> 0.9]
+- Steyr TMP kill probability [0.5 -> 0.51] and walking accuracy [0.7 -> 0.8] increased, recoil decreased [sustained_fire_grow_step: 0.3 -> 0.26]
+- Mini UZI kill probability [0.45 -> 0.53] and walking accuracy [0.7 -> 0.8] increased, recoil decreased [sustained_fire_grow_step: 0.32 -> 0.28]
+- AEK-919k kill probability [0.46 -> 0.55] and walking accuracy [0.7 -> 0.8] increased, recoil decreased [sustained_fire_grow_step: 0.35 -> 0.31]
+- Compound Bow effective range significantly increased [kill_decay_start_time: 0.1 -> 0.6]
+- Buckshot Bess Musket reload time decreased [reload_anim_speed: 0.3 -> 0.4]
+- PF-98 reload time decreased [reload_anim_speed: 0.35 -> 0.5]
+- Sawn-Off Shotgun reload time decreased [reload_anim_speed: 0.3125 -> 0.4]
+- Dragon's Breath reload time decreased [reload_anim_speed: 0.3125 -> 0.4]
+- TTI-Combat Shield range increased [kill_decay_start_time: 0.22 -> 0.25], standing accuracy increased [0.85 -> 0.9, over_wall: 0.85 -> 0.9, sustained_fire_diminish_rate: 0.6 -> 0.9], reload speed increased [reload_anim_speed: 0.66 -> 0.8], and projectile speed increased [80 -> 90]
+- M6 Lynx recoil recovery rate increased [sustained_fire_diminish_rate: 0.5 -> 0.9], firing 50 cal BMG projectile, accuracy lowered [over_wall: 0.95 -> 0.85]
+- Barrett M107 recoil recovery rate increased [sustained_fire_diminish_rate: 0.5 -> 0.8], firing 50 cal BMG projectile, accuracy lowered [over_wall: 0.95 -> 0.85]
+- APR recoil recovery rate increased [sustained_fire_diminish_rate: 0.5 -> 0.9]
+- M24-A2 recoil recovery rate increased [sustained_fire_diminish_rate: 0.55 -> 0.75]
+- PSG-90 recoil recovery rate increased [sustained_fire_diminish_rate: 0.5 -> 0.7]
+- Dragunov SVD accuracy factor decreased [1 -> 0.96] and projectile speed decreased [185 -> 170]
+- Scorpion Evo III range increased [kill_decay_start_time: 0.24 -> 0.25, kill_decay_end_time: 0.36 -> 0.42]
+- QCW-05 range increased [kill_decay_start_time: 0.23 -> 0.24, kill_decay_end_time: 0.37 -> 0.4]
+- MK23 SOCOM recoil adjustments [sustained_fire_grow_step: 0.5 -> 0.2, sustained_fire_diminish_rate: 1.0 -> 0.6]
+- Beretta 93R recoil adjustments [sustained_fire_grow_step: 0.6 -> 0.25, sustained_fire_diminish_rate: 1.2 -> 0.7]
+- Glock 17 fire rate increased [retrigger_time: 0.3 -> 0.2]
+- Beretta M9 fire rate increased [retrigger_time: 0.28 -> 0.25], range increased [kill_decay_start_time: 0.3 -> 0.35, kill_decay_end_time: 0.35 -> 0.4], kill probability increased [0.4 -> 0.45], and recoil slightly decreased [sustained_fire_grow_step: 0.8 -> 0.7]; tag changed from "assault" to "stealth"
+- M712 Schnellfeuer projectile speed increased [90 -> 100]
+- Milkor MGL uses a cycle animation instead of retrigger timer to prevent reload spam, reload speed increased [reload_anim_speed: 0.8 -> 1.25]
 - UMP40, MX4 Storm and PP-19 Bizon now treated as rare weapons with appropriate ownership lock and despawn time
-- Mossberg 500, M240, IMI Negev and PKM commonness reduced
+- Commonness reduced for Mossberg 500 [0.02 -> 0.01], M240 [0.05 -> 0.02], IMI Negev [0.05 -> 0.02], and PKM [0.05 -> 0.02]
 - Black Ops vest can survive one small blast (reason for change: grenadiers)
 - AI soldiers now have 1/5 chance to spawn with Vest, type III instead of  Vest, type II (reason for change: variety)
 - PF-98 rocket damage buffed from 5.2 to 6.4 (proposed by warbrand2) so that it one shots weakest APC, cripples middle APC, and moderately damages the big APC
