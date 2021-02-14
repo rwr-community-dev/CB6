@@ -315,6 +315,7 @@
   <weapon file="m30_rifle.weapon" />
   <weapon file="m30_shotgun.weapon" />
   <weapon file="m30_slug.weapon" />
+  <weapon file="pram.weapon" />
 
   <weapon file='cmgl-12.weapon' />
   <weapon file="x12_xrep.weapon" />
@@ -338,5 +339,10 @@
   <weapon file="f2000_underslung.weapon" />
 
   <weapon file="ns2000_s.weapon" />
+
+<weapon file="sqrv_cannon.weapon" /> 
+<weapon file="sqrv_watcher_empty.weapon" /> 
+<weapon file="sqrv_missile_visual.weapon" /> 
+<weapon file="sqrv_missile_true.weapon" /> 
 
 </weapons>
