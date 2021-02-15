@@ -372,6 +372,10 @@
 
   <weapon key="f2000eglm.weapon" />
 
+  <weapon key='ak47_w_gp25.weapon' />
+	<weapon key='g36_w_ag36.weapon' />
+	<weapon key='m16a4_w_m203.weapon' />
+
 <!-- testing  -->
 	<weapon key="stoner62.weapon" />
 	<weapon key="barrett_m107.weapon" />
