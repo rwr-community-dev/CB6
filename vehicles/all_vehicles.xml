@@ -168,4 +168,11 @@
 <vehicle file="m113_sport.vehicle" />
 <vehicle file="m113_modding.vehicle" />
 
+
+<vehicle file = "sqrv.vehicle"/> 
+<vehicle file = "sqrv_spawn.vehicle"/> 
+<vehicle file = "sqrv_para.vehicle"/> 
+
+
+
 </vehicles>

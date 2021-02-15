@@ -89,15 +89,23 @@
   <!-- <projectile file="M99.projectile" /> -->
   <!-- <projectile file="barrett_m107.projectile" /> -->
   <!-- <projectile file="gepard_m6_lynx.projectile" /> -->
+  <!-- <projectile file="pram_bullet.projectile" /> -->
   <projectile file="m99_sub.projectile" />
   <projectile file="firenade_sub.projectile" />
-  <!-- <projectile file="50bmg.projectile" /> -->
+  <projectile file="50bmg.projectile" />
 
   <!-- <projectile file="vfs_ap.projectile" /> -->
   <!-- <projectile file="vfs_at.projectile" /> -->
   <!-- <projectile file="vfs_au.projectile" /> -->
   <projectile file="vfs_javelin.projectile" />
   <projectile file="vfs_flare.projectile" />
+
+<projectile file="sqrv_cannon.projectile" />
+<projectile file="sqrv_missile_visual.projectile" />
+<projectile file="sqrv_missile_true.projectile" />
+<projectile file="sqrv_missile_true_sub.projectile" />
+<projectile file="sqrv_flare.projectile" />
+
 
 
 </projectiles>
