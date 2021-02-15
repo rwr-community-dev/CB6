@@ -334,6 +334,9 @@
   <weapon file="mod_ap_resource.weapon" />
   <weapon file="mod_at_resource.weapon" />
   <weapon file="mod_au_resource.weapon" />
+  <weapon file="vfs_ap_resource.weapon" />
+  <weapon file="vfs_at_resource.weapon" />
+  <weapon file="vfs_au_resource.weapon" />
 
   <weapon file="f2000eglm.weapon" />
   <weapon file="f2000_underslung.weapon" />
