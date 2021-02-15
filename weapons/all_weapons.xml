@@ -343,9 +343,17 @@
 
   <weapon file="ns2000_s.weapon" />
 
-<weapon file="sqrv_cannon.weapon" /> 
-<weapon file="sqrv_watcher_empty.weapon" /> 
-<weapon file="sqrv_missile_visual.weapon" /> 
-<weapon file="sqrv_missile_true.weapon" /> 
+  <weapon file="sqrv_cannon.weapon" /> 
+  <weapon file="sqrv_watcher_empty.weapon" /> 
+  <weapon file="sqrv_missile_visual.weapon" /> 
+  <weapon file="sqrv_missile_true.weapon" /> 
+
+  <weapon file="ak47_w_gp25.weapon" />
+	<weapon file="ak47_w_gp25_g.weapon" />
+	<weapon file="g36_w_ag36.weapon" />
+	<weapon file="g36_w_ag36_g.weapon" />
+	<weapon file="m16a4_w_m203.weapon" />
+	<weapon file="m16a4_w_m203_g.weapon" />
+
 
 </weapons>
