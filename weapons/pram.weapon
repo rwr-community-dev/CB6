@@ -9,7 +9,7 @@
         magazine_size="1" 
         can_shoot_standing="1" 
         can_shoot_crouching="1" 
-        can_shoot_prone="1"
+        can_shoot_prone="0"
         suppressed="0" 
         name="PRAM - R" 
         class="4" 

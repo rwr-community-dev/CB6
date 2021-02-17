@@ -7,7 +7,7 @@
     can_shoot_prone="0" 
     can_shoot_crouching="0" 
     carry_in_two_hands="1" 
-    name="Two-Handed Sword" 
+    name="Greatsword" 
     class="5" 
     character_state="death" 
     consume="0" 

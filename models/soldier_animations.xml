@@ -39940,7 +39940,6 @@
             <position x="4.875552" y="13.340797" z="3.564114" />
             <position x="-5.341257" y="1.375622" z="-7.258128" />
             <position x="5.154892" y="0.392032" z="4.682786" />
-            <control key="magazine" value="0" />
             <control key="strong_hand" value="0" />
         </frame>
         <frame time="0.350000">
@@ -40010,6 +40009,7 @@
             <position x="4.875552" y="13.340797" z="3.564114" />
             <position x="-5.341257" y="1.375622" z="-7.258128" />
             <position x="5.154892" y="0.392032" z="4.682786" />
+            <control key="magazine" value="0" />
         </frame>
         <frame time="0.900000">
             <position x="0.926303" y="55.170204" z="3.490499" />

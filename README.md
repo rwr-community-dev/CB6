@@ -27,6 +27,14 @@
   ![hud_dp28_s.png](textures/hud_dp28_s.png)
 - Gilboa DBR (NC0032 & KF redfox)  \
   ![hud_gilboa_DBR.png](textures/hud_gilboa_DBR.png)
+- PP19 - Vityaz (NC0032 & KF redfox)  \
+  ![hud_vityaz.png](textures/hud_vityaz.png)
+- PP19 - Vityaz SD (NC0032 & KF redfox)  \
+  ![hud_vityaz_s.png](textures/hud_vityaz_s.png)
+- PP2000 (NC0032 & KF redfox)  \
+  ![hud_pp2000.png](textures/hud_pp2000.png)
+- PP2000 SD (NC0032 & KF redfox)  \
+  ![hud_pp2000_s.png](textures/hud_pp2000_s.png)
 - M99 (KF redfox)  \
   ![hud_M99.png](textures/hud_M99.png)
 - Mac10 w/ bayonet (KF redfox)  \
@@ -78,6 +86,7 @@
 - Addons added for rpgs (CN memories)
 - Medic skins (CN memories)
 - NS2000S (Unit G17 & KF Redfox)
+- G11 rework (KF Redfox)
 
 
 #### Rebalancing project:

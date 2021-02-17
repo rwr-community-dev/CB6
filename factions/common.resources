@@ -90,7 +90,7 @@
 
 	<carry_item key='costume_banana.carry_item' />
 	<carry_item key='camo_vest.carry_item' />
-
+	<carry_item key='vest2.carry_item' />
 	<carry_item key='vest_exo.carry_item' />
 
 	<!-- common vehicles -->
@@ -364,6 +364,11 @@
   <weapon key="gaint_sword.weapon" />
   <weapon key="m30_rifle.weapon" />
   <weapon key="m30_shotgun.weapon" />
+  <weapon key="pram.weapon" />
+  <weapon key="g11.weapon" />
+
+	<weapon key="vityaz.weapon" />
+	<weapon key="pp2000.weapon" />
 
 <weapon key="vfs_au_resource.weapon" />
 <weapon key="vfs_at_resource.weapon" />
