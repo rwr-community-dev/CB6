@@ -316,6 +316,12 @@
   <weapon file="m30_shotgun.weapon" />
   <weapon file="m30_slug.weapon" />
   <weapon file="pram.weapon" />
+  <weapon file="g11_t.weapon" />
+
+	<weapon file="vityaz.weapon" />
+	<weapon file="vityaz_s.weapon" />
+	<weapon file="pp2000.weapon" />
+	<weapon file="pp2000_s.weapon" />
 
   <weapon file='cmgl-12.weapon' />
   <weapon file="x12_xrep.weapon" />
