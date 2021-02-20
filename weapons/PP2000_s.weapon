@@ -27,7 +27,7 @@
 		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 2" />    
 
 
-    <sound key="fire" fileref="pp2000_s_shot.wav" volume="0.4" />
+    <sound key="fire" fileref="pp2000_s_shot.wav" volume="0.3" />
     <sound key="magazine_out" fileref="pistol_clip_out.wav" />
     <sound key="magazine_in" fileref="pistol_clip_in.wav" volume="0.4" />    
     <sound key="cycle" fileref="pistol_chamber.wav" volume="0.5" />

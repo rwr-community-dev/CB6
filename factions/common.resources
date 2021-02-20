@@ -362,10 +362,12 @@
   <weapon key="colt_ranger_accurate.weapon" />
   <weapon key="colt_ranger_quick.weapon" />
   <weapon key="gaint_sword.weapon" />
-  <weapon key="m30_rifle.weapon" />
   <weapon key="m30_shotgun.weapon" />
   <weapon key="pram.weapon" />
   <weapon key="g11.weapon" />
+  <weapon key="vks.weapon" />
+
+  <weapon key="m30_fox_rifle.weapon" />
 
 	<weapon key="vityaz.weapon" />
 	<weapon key="pp2000.weapon" />
