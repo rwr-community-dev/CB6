@@ -19,6 +19,7 @@
     <sound class="impact" fileref="sandbag_drop.wav" />    
 
     <model mesh_filename="barrier_item.mesh" texture_filename="mg_item.png" />
+		<addon_model filename="workpack.xml" />
 
 
     <capacity value="0" source="rank" source_value="0.0" />

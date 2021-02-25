@@ -366,6 +366,7 @@
   <weapon key="pram.weapon" />
   <weapon key="g11.weapon" />
   <weapon key="vks.weapon" />
+  <weapon key="gau.weapon" />
 
   <weapon key="m30_fox_rifle.weapon" />
 

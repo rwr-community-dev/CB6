@@ -317,6 +317,7 @@
   <weapon file="m30_slug.weapon" />
   <weapon file="pram.weapon" />
   <weapon file="g11_t.weapon" />
+  <weapon file="gau.weapon" />
 
   <weapon file="m30_fox_rifle.weapon" />
   <weapon file="m30_fox_shotgun.weapon" />
@@ -341,9 +342,6 @@
   <weapon file="mod_ap.weapon" />
   <weapon file="mod_at.weapon" />
   <weapon file="mod_vi.weapon" />
-  <weapon file="mod_ap_resource.weapon" />
-  <weapon file="mod_at_resource.weapon" />
-  <weapon file="mod_au_resource.weapon" />
   <weapon file="vfs_ap_resource.weapon" />
   <weapon file="vfs_at_resource.weapon" />
   <weapon file="vfs_au_resource.weapon" />

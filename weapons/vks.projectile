@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="bullet" name="default" slot="1" time_to_live="1.0" pulldown_in_air="4">
 <trigger class="impact" />
-    <result class="spawn" instance_class="grenade" instance_key="50bmg.projectile" min_amount="1" max_amount="2" offset="0 0 0" direction_spread="0.0 0.0" />  
+    <result class="spawn" instance_class="grenade" instance_key="50bmg.projectile" min_amount="1" max_amount="1" offset="0 0 0" direction_spread="0.0 0.0" />  
 
 	<rotation class="motion" />
 	
