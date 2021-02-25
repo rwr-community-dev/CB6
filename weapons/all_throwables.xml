@@ -91,6 +91,7 @@
   <!-- <projectile file="gepard_m6_lynx.projectile" /> -->
   <!-- <projectile file="pram_bullet.projectile" /> -->
   <!-- <projectile file="vks.projectile" /> -->
+  <!-- <projectile file="gau.projectile" /> -->
   <projectile file="m99_sub.projectile" />
   <projectile file="firenade_sub.projectile" />
   <projectile file="50bmg.projectile" />

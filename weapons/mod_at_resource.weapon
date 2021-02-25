@@ -8,12 +8,14 @@
     can_shoot_prone="0" 
     name="mod deploy" 
     class="5" 
-    spawn_instance_class="vehicle" 
-    spawn_instance_key="mod_at.vehicle" 
+    spawn_instance_class="projectile" 
+    spawn_instance_key="vfs_at.projectile" 
     consume="1" 
     sight_range_modifier="1" 
     slot="1"
     deployment="1" />
+
+    <next_in_chain key="mod_au_resource.weapon" share_ammo="0" /> 
 
     <animation state_key="running" 		animation_key="walking, carrying load" />
     <animation state_key="walking" 		animation_key="walking, carrying load" />
@@ -30,6 +32,7 @@
     <sound class="impact" fileref="sandbag_drop.wav" />    
 
     <model mesh_filename="barrier_item.mesh" texture_filename="mod_at_item.png" />
+		<addon_model filename="workpack.xml" />
 
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.025" />
