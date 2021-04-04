@@ -317,7 +317,9 @@
   <weapon file="m30_slug.weapon" />
   <weapon file="pram.weapon" />
   <weapon file="g11_t.weapon" />
-  <weapon file="gau.weapon" />
+  <weapon file="a180.weapon" />
+  <weapon file="ntw20.weapon" />
+
 
   <weapon file="m30_fox_rifle.weapon" />
   <weapon file="m30_fox_shotgun.weapon" />
