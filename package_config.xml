@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package
   name="CB6 tester package"
-  description="Last one wasn't the last one"
+  description="https://github.com/rwr-community-dev/_CB6"
+  image="campaign_preview.png"
+  show_in_campaign_menu="1"
   show_in_campaigns="1"
   show_in_quick_match_mods="1"
-  campaign_entry_script="start_campaign.as">
+  campaign_entry_script="start_cb_tester_invasion.as">
 
 	<campaign_options
 		faction="1"
@@ -15,5 +17,7 @@
 		enemy_accuracy="1"
 		xp_multiplier="1"
 		rp_multiplier="1" />
+
+  <!-- <overlay path="media/packages/invasion" /> -->
 
 </package>
