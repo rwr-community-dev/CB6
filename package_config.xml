@@ -6,7 +6,8 @@
   show_in_campaign_menu="1"
   show_in_campaigns="1"
   show_in_quick_match_mods="1"
-  campaign_entry_script="start_cb_tester_invasion.as">
+  campaign_entry_script="start_cb_tester_invasion.as"
+  quick_match_entry_script="start_tester.as">
 
 	<campaign_options
 		faction="1"
