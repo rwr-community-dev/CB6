@@ -14,6 +14,12 @@ void main(dictionary@ inputData) {
     _log("_CB6 debug: inputSettings = ");
     _log(inputSettings.toStringWithFloats());
     UserSettings settings;
+    // HACK: [_CB6] set the username from the local inputData as this main begins at campaign entry script
+    string username = "";
+    if (!inputData.get("username", username)) {
+        _log("username key not in inputData dict");
+    }
+    settings.m_username = username;
     settings.m_factionChoice = 0;                   // 0 (greenbelts), 1 (graycollars), 2 (brownpants)
     settings.m_playerAiCompensationFactor = 1.0;    // was 1.1  (1.75)
     settings.m_enemyAiAccuracyFactor = 0.95;
