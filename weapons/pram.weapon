@@ -17,6 +17,7 @@
         projectile_speed="95.0" 
         slot="0" 
         burst_shots="1" 
+        barrel_offset="0.4" 
         projectiles_per_shot="1" />
 
     <animation key="recoil" ref="40" />
@@ -38,7 +39,7 @@
     <model filename="pram.xml" />
 
     <projectile file="pram_bullet.projectile" />
-    <weak_hand_hold offset="0.3" />
+    <weak_hand_hold offset="0.5" />
 
     <commonness value="0" can_respawn_with="0" in_stock="1"/>    
     <inventory encumbrance="20.0" price="350.0" />

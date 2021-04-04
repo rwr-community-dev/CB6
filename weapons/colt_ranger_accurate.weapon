@@ -5,9 +5,9 @@
     <specification
 	retrigger_time="0.31"
 	accuracy_factor="1.0"
-	sustained_fire_grow_step="0.88"
+	sustained_fire_grow_step="1.5"
 	sustained_fire_diminish_rate="1.8"
-  spread_range="0.15"  
+  spread_range="0.1"  
 	magazine_size="6"
 	can_shoot_standing="1"
 	suppressed="0"
@@ -16,7 +16,7 @@
 	class="4"
 	reload_one_at_a_time="0"
 	sight_range_modifier="1.0"
-	projectile_speed="115.0"
+	projectile_speed="110.0"
 	projectiles_per_shot="1"
 	burst_shots="1"
     slot="0" />
@@ -52,8 +52,8 @@
     <projectile file="bullet.projectile">
         <result class="hit"
 		kill_probability="1.6"
-		kill_decay_start_time="0.20"
-		kill_decay_end_time="0.40" />
+		kill_decay_start_time="0.15"
+		kill_decay_end_time="0.30" />
     </projectile>
     
     <capacity value="0" source="rank" source_value="0.0" />

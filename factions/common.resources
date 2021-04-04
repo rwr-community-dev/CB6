@@ -366,7 +366,8 @@
   <weapon key="pram.weapon" />
   <weapon key="g11.weapon" />
   <weapon key="vks.weapon" />
-  <weapon key="gau.weapon" />
+  <weapon key="a180.weapon" />
+  <!--   <weapon key="ntw20.weapon" />  -->
 
   <weapon key="m30_fox_rifle.weapon" />
 
@@ -397,5 +398,6 @@
 	<weapon key="microgun.weapon" />
 	<carry_item key='eodvest.carry_item' enabled="1" />
 	<carry_item key='vest3.carry_item' enabled="1" />
+	<carry_item key='vest0.carry_item' enabled="1" />
 
 </resources>

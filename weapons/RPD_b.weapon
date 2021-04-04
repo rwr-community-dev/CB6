@@ -3,9 +3,9 @@
     <tag name="machine gun" />
     <specification 
   retrigger_time="0.092" 
-  accuracy_factor="0.56" 
-  sustained_fire_grow_step="0.8" 
-  sustained_fire_diminish_rate="0.82" 
+  accuracy_factor="0.6" 
+  sustained_fire_grow_step="0.75" 
+  sustained_fire_diminish_rate="0.95" 
   magazine_size="120" 
   can_shoot_standing="0" 
   can_shoot_crouching="0" 

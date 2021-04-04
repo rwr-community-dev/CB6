@@ -18,6 +18,7 @@
   projectiles_per_shot="1"
   sight_range_modifier="1.0"
   spread_range="0.06"
+  burst_shots="1"
 />
 
  
