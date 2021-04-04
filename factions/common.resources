@@ -367,7 +367,7 @@
   <weapon key="g11.weapon" />
   <weapon key="vks.weapon" />
   <weapon key="a180.weapon" />
-  <!--   <weapon key="ntw20.weapon" />  -->
+  <weapon key="ntw20.weapon" />
 
   <weapon key="m30_fox_rifle.weapon" />
 
