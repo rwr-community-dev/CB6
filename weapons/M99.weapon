@@ -33,7 +33,7 @@
     <sound key="magazine_in" fileref="sniper_clip_in.wav" />
     <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
     <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
-    <sound class="impact" fileref="rifle_drop.wav" />
+	<sound class="impact" fileref="shield_drop.wav" />
     <model filename="m99.xml" />
 
     <hud_icon filename="hud_m99.png" />

@@ -68,6 +68,8 @@
   ![hud_m16a4_w_m203.png](textures/hud_m16a4_w_m203.png) ![hud_m16a4_w_m203_g.png](textures/hud_m16a4_w_m203_g.png)
 - American 180 ( KF redfox)  \
   ![hud_a180.png](textures/hud_a180.png)
+- NTW 20 ( P90 rush B & KF redfox)  \
+  ![hud_ntw20.png](textures/hud_a180.png)
 
 
 #### Other stuff:
