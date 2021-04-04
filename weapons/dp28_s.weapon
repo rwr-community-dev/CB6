@@ -21,12 +21,10 @@
     <animation key="recoil" ref="13" />
     <animation key="recoil" ref="14" />
     <animation key="reload" ref="100" />
-    <animation state_key="reload" animation_key="reloading, pkm" />
+    <animation state_key="reload" animation_key="reloading, stoner_lmg" />
 
     <animation key="hold" ref="32" />
     <animation key="hold_on_wall" ref="1" />
-    <animation state_key="walking" animation_key="walking, heavy weapon" />
-    <animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
 
     <sound key="fire" fileref="dp28_shot.wav" pitch_variety="0.05" volume="0.50" />
     <sound key="magazine_out" fileref="mg_clip_out.wav" />

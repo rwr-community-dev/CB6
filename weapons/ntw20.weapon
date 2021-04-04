@@ -13,9 +13,9 @@
 	name="NTW 20" 
 	class="4" 
 	burst_shots="1" 
-	projectiles_per_shot="5" 
+	projectiles_per_shot="2" 
 	reload_one_at_a_time="0" 
-	sight_range_modifier="2.5"
+	sight_range_modifier="1.65"
     ai_sight_range_modifier="1.1" 
 	projectile_speed="190.0" 
 	barrel_offset="0.8" />	
@@ -28,6 +28,8 @@
 	<animation key="running" animation_key="running, lahti_l39" />
 	<animation key="hold" ref="32" />
 	<animation key="hold_on_wall" ref="1" />
+    <animation key="reload" animation_key="reloading, type 97 at rifle" />
+    <animation key="reload" stance_key="prone" animation_key="reloading, type 97 at rifle, prone" />
 	
 	<sound key="fire" fileref="ntw20_shot.wav" volume="1.0" />
     <sound key="magazine_out" fileref="sniper_clip_out.wav" />
