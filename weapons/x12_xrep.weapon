@@ -32,7 +32,7 @@
     <model filename="x12_xrep.xml" />
 
     <hud_icon filename="hud_x12_xrep.png" />
-    <commonness value="0.02" can_respawn_with="0" in_stock="1"/>
+    <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
     <inventory encumbrance="10.0" price="2.0" />
 
     <weak_hand_hold offset="0.2" />
