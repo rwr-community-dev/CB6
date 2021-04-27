@@ -99,6 +99,8 @@
 - G11 rework (KF Redfox)
 - the VFS modding system is not working and will not be fixed until we confirm that modding vehicles is a go in vanilla (return_dirt/KF redfox)
 - RT 20 is an alternative version of NTW 20 ( P90 rush B & KF redfox)
+- The vest0 shall only spawn on enemy soldiers and will not drop if it is broken. they are meant to make enemy soldiers a little bit tougher.
+  Since they can only be obtianed by road killing enemies and no xp is required to wear them, they will be good giftw to new players from the vets (KF redfox)
 
 
 
