@@ -368,6 +368,8 @@
   <weapon key="vks.weapon" />
   <weapon key="a180.weapon" />
   <weapon key="ntw20.weapon" />
+  <weapon key="golden_mp5sd.weapon" />
+  <weapon key="rt20.weapon" />
 
   <weapon key="m30_fox_rifle.weapon" />
 
@@ -390,6 +392,7 @@
 	<weapon key='m16a4_w_m203.weapon' />
 
 <!-- testing  -->
+	<weapon key="mp5sd.weapon" />
 	<weapon key="stoner62.weapon" />
 	<weapon key="barrett_m107.weapon" />
 	<weapon key="milkor_mgl.weapon" />

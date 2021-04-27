@@ -69,7 +69,14 @@
 - American 180 ( KF redfox)  \
   ![hud_a180.png](textures/hud_a180.png)
 - NTW 20 ( P90 rush B & KF redfox)  \
-  ![hud_ntw20.png](textures/hud_a180.png)
+  ![hud_ntw20.png](textures/hud_ntw20.png)
+- RT 20 ( P90 rush B & KF redfox)  \
+  ![hud_rt20.png](textures/hud_rt20.png)
+- golden mp5sd ( Marcus & KF redfox)  \
+  ![hud_ntw20.png](textures/hud_golden_mp5sd.png)
+- Musket Bayonet ( KF redfox)  \
+  ![hud_musket_bayonet.png](textures/hud_musket_bayonet.png)
+
 
 
 #### Other stuff:
@@ -84,12 +91,18 @@
 - 44 Magnum reanimation and rapid fire mode (Kiruex)
 - Ammo backpacks for WB-II Microgun and KAC Chain SAW (warbrand2)
 - Flamethrower rework and fuel backpack (Kiruex)
-- Basket adding bayonet and skins (KF redfox)
-- mp5 supressed model rework (ammo guy)
+- Musket rework. Adding bayonet, casual posture and line infantry skins (KF redfox)
+- mp5 supressed model rework and add red pixels to its hud to fit the model (Marcus)
 - Addons added for rpgs (CN memories)
 - Medic skins (CN memories)
 - NS2000S (Unit G17 & KF Redfox)
 - G11 rework (KF Redfox)
+- the VFS modding system is not working and will not be fixed until we confirm that modding vehicles is a go in vanilla (return_dirt/KF redfox)
+- RT 20 is an alternative version of NTW 20 ( P90 rush B & KF redfox)
+- The vest0 shall only spawn on enemy soldiers and will not drop if it is broken. they are meant to make enemy soldiers a little bit tougher.
+  Since they can only be obtianed by road killing enemies and no xp is required to wear them, they will be good giftw to new players from the vets (KF redfox)
+
+
 
 
 #### Rebalancing project:
@@ -141,6 +154,7 @@
 - Iron Enclave insurgents
 - Make dog_radio.weapon not consume and not spawn the call on maps with flares disabled (Tropical Blizzard, Copehill Down)
 - Maybe some more easter egg soldier skins that involve combining Golden Knife or Cavalry Saber with something else
+- More line infantrie and ranger skins for different armors
 
 
 #### Notes:
@@ -228,3 +242,7 @@
 ##### Medics：
 - medkit
 - medkit + V2
+
+##### Vest0：
+- vest0 (three factions)
+
