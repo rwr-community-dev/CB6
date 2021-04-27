@@ -319,6 +319,9 @@
   <weapon file="g11_t.weapon" />
   <weapon file="a180.weapon" />
   <weapon file="ntw20.weapon" />
+  <weapon file="rt20.weapon" />
+  <weapon file="golden_mp5sd.weapon" />
+  <weapon file="musket_bayonet.weapon" />
 
 
   <weapon file="m30_fox_rifle.weapon" />

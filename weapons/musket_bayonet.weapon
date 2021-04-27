@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="musket.weapon">
+<weapon file="base_primary_rare.weapon" key="musket_bayonet.weapon">
     <tag name="assault" />
 
     <specification 
 	retrigger_time="-1" 
-	accuracy_factor="0.32" 
+	accuracy_factor="0.30" 
 	sustained_fire_grow_step="3.0" 
 	sustained_fire_diminish_rate="0.2" 
 	magazine_size="1" 
@@ -16,22 +16,28 @@
 	projectile_speed="100.0" 
 	projectiles_per_shot="30" 
 	barrel_offset="1.0" 
+    stab_enabled="1"
+    stab_range="3"
 	/>
-
-	<next_in_chain key="musket_bayonet.weapon" share_ammo="0" />
+	<next_in_chain key="musket.weapon" share_ammo="0" />
 
 	<animation key="recoil" ref="27" />
     <animation state_key="reload" animation_key="reloading, muzzle loader" />                 
     <animation state_key="running" animation_key="running, line infantry" />
-    <animation state_key="walking" animation_key="walking, line infantry" />     
-	<animation state_key="hold_casual"		animation_key="hold_casual, line infantry" />   
+    <animation state_key="walking" animation_key="walking, line infantry" />   
+    <animation state_key="hold_casual"		animation_key="hold_casual, line infantry" />   
+    <animation state_key="stabbing" 		animation_key="gaint sword stab" />     
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 3" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 3" />      
+
     <sound key="fire" fileref="musket_shot.wav" pitch_variety="0.05" volume="1.0" />
     <sound key="magazine_out" fileref="musket_magazine_out.wav" volume="0.25" />
     <sound key="magazine_in" fileref="musket_magazine_in.wav" volume="0.14"/>
     <sound key="cycle" fileref="dry_fire.wav" volume="0.5"/>
+    <sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.5"/>
     <sound class="impact" fileref="rifle_drop.wav" />
 
-    <model filename="musket.xml" />
+    <model filename="musket_bayonet.xml" />
 
     <projectile file="bullet.projectile">
         <result class="hit" 
@@ -44,12 +50,12 @@
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
 
-    <hud_icon filename="hud_musket.png" />
+    <hud_icon filename="hud_musket_bayonet.png" />
     <commonness value="0.0" can_respawn_with="0" />
     <inventory encumbrance="10.0" price="600.0" />
 
     <effect class="muzzle" ref="MusketMuzzle" />
     
-    <modifier class="speed" value="-0.11" />    
+    <modifier class="speed" value="-0.12" />    
 
 </weapon>
