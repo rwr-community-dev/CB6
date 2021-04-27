@@ -85,7 +85,7 @@
 - Rangefinder binoculars (Unit G17)
 - Ninjato animation tweaks (Kiruex)
 - Golden Knife rework (Kiruex)
-- Costume rework (Kiruex)
+- Costume rework (Kiruex, warbrand2, and many others - see Skins section below)
 - Additional L30P models and model tweaks + Ninjato samurai (Kiruex)
 - Bonus soldier models for specific weapon-vest combinations (Kiruex)
 - Ninjato firecracker mode (Kiruex)
@@ -191,7 +191,7 @@
 - Compound Bow + Golden Knife
 - Compound Bow + Cavalry Saber
 
-##### Dragon Lizard:
+##### Dragon Lizard (warbrand2):
 - Lizard + Flamethrower
 - Lizard + Dragon's Breath
 - Lizard + Ninjato
