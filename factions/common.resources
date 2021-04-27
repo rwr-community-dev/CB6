@@ -391,6 +391,8 @@
 	<weapon key='g36_w_ag36.weapon' />
 	<weapon key='m16a4_w_m203.weapon' />
 
+  <weapon key="mk14_ebr.weapon" />
+
 <!-- testing  -->
 	<weapon key="mp5sd.weapon" />
 	<weapon key="stoner62.weapon" />

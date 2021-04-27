@@ -76,6 +76,8 @@
   ![hud_ntw20.png](textures/hud_golden_mp5sd.png)
 - Musket Bayonet ( KF redfox)  \
   ![hud_musket_bayonet.png](textures/hud_musket_bayonet.png)
+- MK14 EBR ( MoistGoat ) \
+  ![hud_mk14ebr.png](textures/hud_mk14ebr.png)
 
 
 
@@ -245,4 +247,3 @@
 
 ##### Vest0：
 - vest0 (three factions)
-
