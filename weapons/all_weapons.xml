@@ -302,7 +302,7 @@
   <weapon file="gilboa.weapon" />
   <weapon file="m99.weapon" />
   <weapon file="mac10.weapon" />
-  <weapon file="mac10_bayonet.weapon" />
+  <weapon file="mac10sd.weapon" />
   <weapon file="qbz-95.weapon" />
   <weapon file="qbz-95_us.weapon" />
   <weapon file="rpd.weapon" />
