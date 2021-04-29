@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="mac10_bayonet.weapon">
+<weapon file="base_primary_rare.weapon" key="mac10sd.weapon">
     <tag name="assault" />
     <specification
     retrigger_time="0.065" 
-    accuracy_factor="0.75" 
+    accuracy_factor="0.89" 
     sustained_fire_grow_step="0.25" 
     sustained_fire_diminish_rate="1.5" 
-    spread_range="0.28"
+    spread_range="0.3"
     magazine_size="50" 
     can_shoot_standing="1" 
     carry_in_two_hands="1" 
-    suppressed="0" 
-    name="Mac10 - bayonet" 
+    suppressed="1" 
+    name="MAC-10 SD" 
     class="0" 
-    projectile_speed="95.0"
-    barrel_offset="0.2"  
-    stab_enabled="1"
-    stab_range="1.7" 
+    projectile_speed="100.0"
+    barrel_offset="0.4"   
     slot="1"   />
 
 	<next_in_chain key="mac10.weapon" share_ammo="1" />
@@ -24,40 +22,38 @@
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
     <animation key="recoil" ref="14" />
-  <animation state_key="reload"	animation_key="reloading, aks74u" />
+    <animation state_key="reload" animation_key="reloading, mp5sd" />
 
 		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
-		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />      
-    <animation state_key="stabbing" animation_key="melee, bayonet" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 2" />    
 
-    <sound key="fire" fileref="mac10_shot.wav" volume="1.2" />
+    <sound key="fire" fileref="mac10sd_shot.wav" pitch_variety="0.05" volume="0.6"/>
     <sound key="magazine_out" fileref="pistol_clip_out.wav" />
     <sound key="magazine_in" fileref="pistol_clip_in.wav" volume="0.4" />    
     <sound key="cycle" fileref="pistol_chamber.wav" volume="0.55" />
     <sound class="impact" fileref="rifle_drop.wav" />
-    <sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="1"/>
-    <model filename="mac10_bayonet.xml" />
+    <model filename="mac10sd.xml" />
 
-    <hud_icon filename="hud_mac10_bayonet.png" />
-    <commonness value="0.0" can_respawn_with="0" in_stock="0" />
+    <hud_icon filename="hud_mac10sd.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="1" />
     <inventory encumbrance="10.0" price="110.0" />
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.41" 
-        kill_decay_start_time="0.20" 
-        kill_decay_end_time="0.32" />
+        <result class="hit" kill_probability="0.45" 
+        kill_decay_start_time="0.25" 
+        kill_decay_end_time="0.40" />
     </projectile>
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.3" />    
     
     <modifier class="speed" value="+0.0" />
     
-    <stance state_key="running" accuracy="0.3" />
+    <stance state_key="running" accuracy="0.5" />
     <stance state_key="walking" accuracy="0.66" />
     <stance state_key="crouch_moving" accuracy="0.6" />
-    <stance state_key="standing" accuracy="0.83" />
-    <stance state_key="crouching" accuracy="0.87" />
-    <stance state_key="prone" accuracy="0.92" /> 
-    <stance state_key="prone_moving" accuracy="0.4" />
+    <stance state_key="standing" accuracy="0.87" />
+    <stance state_key="crouching" accuracy="0.92" />
+    <stance state_key="prone" accuracy="0.93" /> 
+    <stance state_key="prone_moving" accuracy="0.7" />
     <stance state_key="over_wall" accuracy="0.9" />
 </weapon>
