@@ -85,7 +85,6 @@
 <!-- CB#6 -->
 	<carry_item file="dog.carry_item" />
 	<carry_item file="ugv.carry_item" />
-	<carry_item file="vest0.carry_item" />
 
 </carry_items>
 

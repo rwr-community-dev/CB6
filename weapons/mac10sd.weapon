@@ -9,7 +9,7 @@
     spread_range="0.3"
     magazine_size="50" 
     can_shoot_standing="1" 
-    carry_in_two_hands="1" 
+    carry_in_two_hands="0" 
     suppressed="1" 
     name="MAC-10 SD" 
     class="0" 
@@ -19,13 +19,23 @@
 
 	<next_in_chain key="mac10.weapon" share_ammo="1" />
 
-    <animation key="recoil" ref="12" />
-    <animation key="recoil" ref="13" />
-    <animation key="recoil" ref="14" />
-    <animation state_key="reload" animation_key="reloading, mp5sd" />
+		<animation state_key="next_in_chain_in" animation_key="mount suppressor, pistol" />
+		<animation state_key="next_in_chain_out" animation_key="mount suppressor, pistol" />  
 
-		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
-		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 2" />    
+	<animation state_key="recoil"	animation_key="recoil, pistol" />
+	<animation key="recoil" stance_key="prone" animation_key="recoil, smg1, prone" />	
+  <animation state_key="reload"	animation_key="reloading, pistol" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, smg1, prone" />	
+	<animation state_key="hold"	animation_key="hold, pistol" />
+	<animation state_key="hold_casual"	animation_key="hold_casual, pistol" />
+	<animation state_key="hold_on_wall"	animation_key="hold, pistol" />
+	<animation state_key="still_against_wall"	animation_key="hold, pistol" />
+	<animation state_key="crouching"	animation_key="crouch, pistol" />
+	<animation state_key="running"	animation_key="running, pistol" />
+	<animation state_key="walking"	animation_key="walking, pistol" />
+  <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+  <animation state_key="prone_still" animation_key="prone_still, pistol" />
+  <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />  
 
     <sound key="fire" fileref="mac10sd_shot.wav" pitch_variety="0.05" volume="0.6"/>
     <sound key="magazine_out" fileref="pistol_clip_out.wav" />

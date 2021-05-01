@@ -150,28 +150,6 @@
 
 <!-- CB#6 -->
 	<vehicle file="dog_para.vehicle" />
-  <vehicle file="tank_merkava.vehicle"/>
-
-
-<vehicle file="vfs_sport.vehicle" />
-<vehicle file="vfs_modding.vehicle" />
-<vehicle file="vfs_au.vehicle" />
-<vehicle file="vfs_at.vehicle" />
-<vehicle file="vfs_ap.vehicle" />
-<vehicle file="vfs_spawn.vehicle" />
-<vehicle file="vfs_para.vehicle" />
-<vehicle file="mod_para.vehicle" />
-<vehicle file="mod_au.vehicle" />
-<vehicle file="mod_ap.vehicle" />
-<vehicle file="mod_at.vehicle" />
-
-<vehicle file="m113_sport.vehicle" />
-<vehicle file="m113_modding.vehicle" />
-
-
-<vehicle file = "sqrv.vehicle"/> 
-<vehicle file = "sqrv_spawn.vehicle"/> 
-<vehicle file = "sqrv_para.vehicle"/> 
 
 
 

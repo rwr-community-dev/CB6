@@ -147,7 +147,7 @@
 
 	<sound key="throw" fileref="static.wav" volume="0.0" />
 	<sound key="death" fileref="static.wav" volume="0.0" />
-	<sound key="footstep" fileref="ugv_roll.wav" volume="0.1" pitch_variety="0.0" />
+	<sound key="footstep" fileref="ugv_roll.wav" volume="0.04" pitch_variety="0.0" />
 
 	<parameter class="being_stunned_steer_amount" value="0.0" />
 	

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="barrett_m107.weapon">
+<weapon key="barrett_m107.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="30.0">
     <tag name="sniper" />
     <specification 
   retrigger_time="1.0" 
@@ -18,8 +18,11 @@
   barrel_offset="0.4" 
   projectiles_per_shot="1" />
     <animation key="recoil" ref="27" />
+	<animation key="recoil" stance_key="prone" animation_key="recoil1, big, prone" />
     <animation key="cycle" ref="30" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle, prone" />
     <animation state_key="reload" animation_key="reloading, vss_vintorez" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar2, prone" />
     <sound key="fire" fileref="barrett_m107_shot.wav" pitch_variety="0.05"  volume="0.8" />
     <sound key="cycle" fileref="sniper_cycle.wav" />
     <sound key="magazine_out" fileref="sniper_clip_out.wav" />

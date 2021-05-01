@@ -13,7 +13,7 @@
   class="0" 
   projectile_speed="100.0"
   barrel_offset="0.4" 
-  projectiles_per_shot="2" />
+  projectiles_per_shot="1" />
 
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />

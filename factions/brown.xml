@@ -60,12 +60,13 @@
 	<!-- player group -->
 	<!-- -------------- -->
 	<soldier name="default" spawn_score="0.0">
-		<character filename="default_male.character" />
+		<character filename="default_male.character">
+			<parameter class="default_squad_config_index" value="0" />
+		</character>
 		<ai filename="default.ai" />
 
 		<models file="brown_default_basic.models" />
 		<models file="brown_default.models" />
-		<models file="brown_bonus.models" />
 		<models file="common_bonus.models" />
 
 		<resources file="common.resources" />
@@ -102,7 +103,6 @@
 		<resources>
 			<weapon key='dragunov_svd.weapon' enabled="0" />
 			<carry_item key='camouflage_suit.carry_item' enabled="0"/>
-			<carry_item key='vest3.carry_item' enabled="1"/>
 		</resources>
 	</soldier>
 	
@@ -129,11 +129,11 @@
 
 		<attribute_config class="xp">
 			<attribute weight="1.0" min="0.5" max="0.8" />
-			<attribute weight="0.05" min="1.0" max="10.0" />
+			<attribute weight="0.3" min="1.0" max="10.0" />
 		</attribute_config>
 
 		<attribute_config class="rp">
-			<attribute weight="1.0" min="500.0" max="500.0" />
+			<attribute weight="1.0" min="700.0" max="1500.0" />
 		</attribute_config>
 
 	</soldier>
@@ -271,8 +271,6 @@
 
 		<models file="brown_default_basic.models" />
 		<models file="brown_default.models" />
-		<models file="brown_bonus.models" />
-		<models file="common_bonus.models" />
 
 		<resources file="common.resources" />
 		<resources file="brown_sniper.resources" />

@@ -342,56 +342,26 @@
 	<projectile key='ugv.projectile' enabled="1" />
 	<weapon key="sabre.weapon" />
 	<weapon key="doublebarrel.weapon" />
-	<weapon key="oicw.weapon" />
-	<weapon key="abomination.weapon" />
-	<weapon key="ultimax.weapon" />
-	<weapon key="ak47flame.weapon" />
-  <weapon key='ash12.weapon' />
-  <weapon key='qlu11.weapon' />
-  <weapon key='paintspray.weapon' />
 
-  <weapon key="aek999.weapon" />
-  <weapon key="dp28_s.weapon" />
+	<weapon key="ultimax.weapon" />
+
+  <weapon key='ash12.weapon' />
+
+
   <weapon key="gilboa.weapon" />
-  <weapon key="m99.weapon" />
+
   <weapon key="mac10.weapon" />
-  <weapon key="qbz-95.weapon" />
+<weapon key="ares_shrike_s.weapon" />  
+
   <weapon key="rpd.weapon" />
   <weapon key="shumikha.weapon" />
-  <weapon key="xm556.weapon" />
-  <weapon key="colt_ranger_accurate.weapon" />
-  <weapon key="colt_ranger_quick.weapon" />
-  <weapon key="gaint_sword.weapon" />
-  <weapon key="m30_shotgun.weapon" />
-  <weapon key="pram.weapon" />
-  <weapon key="g11.weapon" />
-  <weapon key="vks.weapon" />
-  <weapon key="a180.weapon" />
-  <weapon key="ntw20.weapon" />
+
+  <weapon key="zweihander.weapon" />
   <weapon key="golden_mp5sd.weapon" />
-  <weapon key="rt20.weapon" />
-
-  <weapon key="m30_fox_rifle.weapon" />
-
-	<weapon key="vityaz.weapon" />
-	<weapon key="pp2000.weapon" />
-
-<weapon key="vfs_au_resource.weapon" />
-<weapon key="vfs_at_resource.weapon" />
-<weapon key="vfs_ap_resource.weapon" />
-
-  <weapon key='cmgl-12.weapon' />
-  <weapon key='x12_xrep.weapon' />
-
-  <vehicle key="tank_merkava.vehicle" />
-
-  <weapon key="f2000eglm.weapon" />
 
   <weapon key='ak47_w_gp25.weapon' />
 	<weapon key='g36_w_ag36.weapon' />
 	<weapon key='m16a4_w_m203.weapon' />
-
-  <weapon key="mk14_ebr.weapon" />
 
 <!-- testing  -->
 	<weapon key="mp5sd.weapon" />
@@ -401,8 +371,11 @@
 	<weapon key="musket.weapon" />
 	<weapon key="chain_saw.weapon" />
 	<weapon key="microgun.weapon" />
+	<weapon key="benelli_m4.weapon" />
+	
+	  <weapon key="g11.weapon" />
 	<carry_item key='eodvest.carry_item' enabled="1" />
 	<carry_item key='vest3.carry_item' enabled="1" />
-	<carry_item key='vest0.carry_item' enabled="1" />
+	
 
 </resources>

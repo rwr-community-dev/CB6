@@ -24,14 +24,26 @@ class RangeFinder : Tracker {
 		
 			int characterId = event.getIntAttribute("character_id");
 			const XmlElement@ character = getCharacterInfo(m_metagame, characterId);
-			int playerId = character.getIntAttribute("player_id");
-			const XmlElement@ player = getPlayerInfo(m_metagame, playerId);
-		
-			if (player.hasAttribute("aim_target")) {
-				Vector3 target = stringToVector3(player.getStringAttribute("aim_target"));
-				Vector3 origin = stringToVector3(character.getStringAttribute("position"));
-				int distance = getPositionDistance(target, origin);
-				sendPrivateMessage(m_metagame, playerId, "Distance to target is " + distance + " meters.");
+			
+			if (character !is null) {
+				int playerId = character.getIntAttribute("player_id");
+				const XmlElement@ player = getPlayerInfo(m_metagame, playerId);
+				
+				if (player !is null) {
+			
+					if (player.hasAttribute("aim_target")) {
+						Vector3 target = stringToVector3(player.getStringAttribute("aim_target"));
+						Vector3 origin = stringToVector3(character.getStringAttribute("position"));
+						int distance = getPositionDistance(target, origin);
+						
+						string intelKey = "rangefinder binoculars";
+						dictionary a = {
+							{"%range", formatInt(distance)}
+						};
+						
+						sendFactionMessageKeySaidAsCharacter(m_metagame, 0, characterId, intelKey, a);
+					}
+				}
 			}
 		}
 	}

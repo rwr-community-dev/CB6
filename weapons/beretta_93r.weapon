@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="beretta_93r.weapon">
+<weapon file="base_secondary_sidearm.weapon" key="beretta_93r.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="30.0">
     <tag name="stealth" />       
 	
     <specification
@@ -24,9 +24,11 @@
 	/>
 	
 	<animation state_key="recoil"	animation_key="recoil, pistol" />
+	<animation key="recoil" stance_key="prone" animation_key="recoil, pistol, prone" />	
     <animation state_key="reload"	animation_key="reloading, pistol" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, smg1, prone" />	
 	<animation state_key="hold"	animation_key="hold, pistol" />
-	<animation state_key="hold_casual"	animation_key="hold_casual, pistol" />
+	<animation state_key="hold_casual"	animation_key="hold, pistol" />
 	<animation state_key="hold_on_wall"	animation_key="hold, pistol" />
 	<animation state_key="still_against_wall"	animation_key="hold, pistol" />
 	<animation state_key="crouching"	animation_key="crouch, pistol" />

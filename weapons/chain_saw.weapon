@@ -3,9 +3,9 @@
     <tag name="stealth" />
     <specification 
 	retrigger_time="0.05" 
-	accuracy_factor="0.5" 
-	sustained_fire_grow_step="0.8" 
-	sustained_fire_diminish_rate="0.8" 
+	accuracy_factor="0.55" 
+	sustained_fire_grow_step="1.5" 
+	sustained_fire_diminish_rate="1.5" 
 	magazine_size="150" 
 	can_shoot_crouching="1"
 	can_shoot_prone="0"

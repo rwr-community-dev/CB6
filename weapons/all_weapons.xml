@@ -268,7 +268,6 @@
 
 <!-- CB#6 -->
 
-  <weapon file="ares_shrike_s.weapon" />
   <weapon file="model_29_alt.weapon" />
   <weapon file="dog_radio.weapon" />
   <weapon file="dog.weapon" />
@@ -280,86 +279,29 @@
   <weapon file="doublebarrel_alt.weapon" />
   <weapon file="ninjato_alt.weapon" />
   <weapon file="compound_bow_alt.weapon" />
-  <weapon file="oicw.weapon" />
-  <weapon file="oicw_g.weapon" />
-  <weapon file="abomination.weapon" />
-  <weapon file="abomination_alt.weapon" />
   <weapon file="ultimax.weapon" />
   <weapon file="ultimax_m.weapon" />
 
-  <weapon file="ak47flame_f.weapon" />
-  <weapon file="ak47flame.weapon" />
-
   <weapon file="ash12.weapon" />
   <weapon file="ash12_g.weapon" />
-  <weapon file="qlu11.weapon" />
 
-  <weapon file="paintspray.weapon" />
-  <weapon file="paintspray_c.weapon" />
-
-  <weapon file="aek999.weapon" />
-  <weapon file="dp28_s.weapon" />
   <weapon file="gilboa.weapon" />
-  <weapon file="m99.weapon" />
+
   <weapon file="mac10.weapon" />
   <weapon file="mac10sd.weapon" />
-  <weapon file="qbz-95.weapon" />
-  <weapon file="qbz-95_us.weapon" />
+
+<weapon file="ares_shrike_s.weapon" />  
+
+
   <weapon file="rpd.weapon" />
   <weapon file="rpd_b.weapon" />
   <weapon file="shumikha.weapon" />
-  <weapon file="xm556.weapon" />
-  <weapon file="colt_ranger_accurate.weapon" />
-  <weapon file="colt_ranger_quick.weapon" />
-  <weapon file="gaint_sword.weapon" />
-  <weapon file="m30_rifle.weapon" />
-  <weapon file="m30_shotgun.weapon" />
-  <weapon file="m30_slug.weapon" />
-  <weapon file="pram.weapon" />
-  <weapon file="g11_t.weapon" />
-  <weapon file="a180.weapon" />
-  <weapon file="ntw20.weapon" />
-  <weapon file="rt20.weapon" />
+
+  <weapon file="zweihander.weapon" />
+
+
   <weapon file="golden_mp5sd.weapon" />
   <weapon file="musket_bayonet.weapon" />
-
-
-  <weapon file="m30_fox_rifle.weapon" />
-  <weapon file="m30_fox_shotgun.weapon" />
-
-	<weapon file="vityaz.weapon" />
-	<weapon file="vityaz_s.weapon" />
-	<weapon file="pp2000.weapon" />
-	<weapon file="pp2000_s.weapon" />
-	<weapon file="vks.weapon" />
-
-  <weapon file='cmgl-12.weapon' />
-  <weapon file="x12_xrep.weapon" />
-
-  <weapon file="tank_cannon_merkava.weapon" />
-  <weapon file="tank_mortar_merkava.weapon" />
-
-  <weapon file="vfs_atj.weapon" />
-  <weapon file="vfs_buggy_mg.weapon" />
-  <weapon file="vfs_migu.weapon" />
-  <weapon file="vfs_shield.weapon" />
-  <weapon file="mod_au.weapon" />
-  <weapon file="mod_ap.weapon" />
-  <weapon file="mod_at.weapon" />
-  <weapon file="mod_vi.weapon" />
-  <weapon file="vfs_ap_resource.weapon" />
-  <weapon file="vfs_at_resource.weapon" />
-  <weapon file="vfs_au_resource.weapon" />
-
-  <weapon file="f2000eglm.weapon" />
-  <weapon file="f2000_underslung.weapon" />
-
-  <weapon file="ns2000_s.weapon" />
-
-  <weapon file="sqrv_cannon.weapon" />
-  <weapon file="sqrv_watcher_empty.weapon" />
-  <weapon file="sqrv_missile_visual.weapon" />
-  <weapon file="sqrv_missile_true.weapon" />
 
   <weapon file="ak47_w_gp25.weapon" />
 	<weapon file="ak47_w_gp25_g.weapon" />
@@ -367,8 +309,6 @@
 	<weapon file="g36_w_ag36_g.weapon" />
 	<weapon file="m16a4_w_m203.weapon" />
 	<weapon file="m16a4_w_m203_g.weapon" />
-
-  <weapon file="mk14_ebr.weapon" />
 
 
 </weapons>

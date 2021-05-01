@@ -81,29 +81,12 @@
 <!-- CB#6 -->
   <!-- note: only throwables not referenced elsewhere required here - see the lack of xm25.projectile because wep imports it -->
   <!-- <projectile file="selfstun.projectile" /> -->
-  <!-- <projectile file="ugv_blast.projectile" /> -->
+  <projectile file="ugv_blast.projectile" /> 
   <projectile file="ugv.projectile" />
-  <!-- <projectile file="firecracker.projectile" /> -->
 
-  <!-- <projectile file="firenade.projectile" /> -->
-  <!-- <projectile file="M99.projectile" /> -->
-  <!-- <projectile file="barrett_m107.projectile" /> -->
-  <!-- <projectile file="gepard_m6_lynx.projectile" /> -->
-  <!-- <projectile file="pram_bullet.projectile" /> -->
-  <projectile file="m99_sub.projectile" />
+
   <projectile file="firenade_sub.projectile" />
 
-  <!-- <projectile file="vfs_ap.projectile" /> -->
-  <!-- <projectile file="vfs_at.projectile" /> -->
-  <!-- <projectile file="vfs_au.projectile" /> -->
-  <projectile file="vfs_javelin.projectile" />
-  <projectile file="vfs_flare.projectile" />
-
-<projectile file="sqrv_cannon.projectile" />
-<projectile file="sqrv_missile_visual.projectile" />
-<projectile file="sqrv_missile_true.projectile" />
-<projectile file="sqrv_missile_true_sub.projectile" />
-<projectile file="sqrv_flare.projectile" />
 
 
 

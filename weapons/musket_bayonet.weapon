@@ -26,7 +26,7 @@
     <animation state_key="running" animation_key="running, line infantry" />
     <animation state_key="walking" animation_key="walking, line infantry" />   
     <animation state_key="hold_casual"		animation_key="hold_casual, line infantry" />   
-    <animation state_key="stabbing" 		animation_key="gaint sword stab" />     
+    <animation state_key="stabbing" 		animation_key="zweihander stab" />     
 		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 3" />
 		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 3" />      
 
