@@ -7,77 +7,31 @@
   ![hud_hunter_shotgun.png](textures/hud_hunter_shotgun.png) ![hud_hunter_shotgun_alt.png](textures/hud_hunter_shotgun_alt.png)
 - Demolisher UGV plus remote detonator (Kiruex)  \
   ![hud_ugv.png](textures/hud_ugv.png) ![hud_ugvradio.png](textures/hud_ugvradio.png)
-- XM29 OICW with remote and automatic airburst modes (warbrand2 & Kiruex)  \
-  ![hud_oicw.png](textures/hud_oicw.png) ![hud_oicw_g.png](textures/hud_oicw_g.png)
-- Gadkaia Merzost twin rifle abomination (Kiruex)  \
-  ![hud_abomination.png](textures/hud_abomination.png)
 - Ultimax 100 reverse-recoil light machine gun (Kiruex)  \
   ![hud_ultimax.png](textures/hud_ultimax.png) ![hud_ultimax_m.png](textures/hud_ultimax_m.png)
-- AK47 Flamer (warbrand2)  \
-  ![hud_ak47flame.png](textures/hud_ak47flame.png) ![hud_ak47flame_f.png](textures/hud_ak47flame_f.png)
 - Ash 12 (Kiruex)  \
   ![hud_ash12.png](textures/hud_ash12.png) ![hud_ash12_g.png](textures/hud_ash12_g.png)
-- QLU-11 sniper grenade launcher (Xe-No & GhostNZ)  \
-  ![hud_qlu11.png](textures/hud_qlu11.png)
-- Paint Sprayer (Kiruex)  \
-  ![hud_paintspray.png](textures/hud_paintspray.png) ![hud_paintspray_c.png](textures/hud_paintspray_c.png)
-- AEK999 (Marcus & KF redfox)  \
-  ![hud_aek999.png](textures/hud_aek999.png)
-- dp28 - shield (KF redfox)  \
-  ![hud_dp28_s.png](textures/hud_dp28_s.png)
 - Gilboa DBR (NC0032 & KF redfox)  \
   ![hud_gilboa_DBR.png](textures/hud_gilboa_DBR.png)
-- PP19 - Vityaz (NC0032 & KF redfox)  \
-  ![hud_vityaz.png](textures/hud_vityaz.png)
-- PP19 - Vityaz SD (NC0032 & KF redfox)  \
-  ![hud_vityaz_s.png](textures/hud_vityaz_s.png)
-- PP2000 (NC0032 & KF redfox)  \
-  ![hud_pp2000.png](textures/hud_pp2000.png)
-- PP2000 SD (NC0032 & KF redfox)  \
-  ![hud_pp2000_s.png](textures/hud_pp2000_s.png)
-- M99 (KF redfox)  \
-  ![hud_M99.png](textures/hud_M99.png)
-- Mac10 w/ bayonet (KF redfox)  \
-  ![hud_Mac10.png](textures/hud_Mac10.png) ![hud_Mac10_bayonet.png](textures/hud_Mac10_bayonet.png)
-- qbz-95 w/ underbarrel shotgun (oche34 & KF redfox)  \
-  ![hud_qbz-95.png](textures/hud_qbz-95.png)
+- Mac10SD (KF redfox)  \
+  ![hud_Mac10.png](textures/hud_mac10sd.png)
 - RPD w/ bipod (oche34 & KF redfox)  \
-  ![hud_RPD.png](textures/hud_RPD.png) ![hud_RPD - bipod.png](textures/hud_RPD - bipod.png)
+  ![hud_RPD.png](textures/hud_rpd_b.png)
 - Shumikha Launcher (KF redfox)  \
   ![hud_Shumikha.png](textures/hud_Shumikha.png)
-- XM - 556 (NC0032 & KF redfox)  \
-  ![hud_XM556.png](textures/hud_XM556.png)
-- President Skins (Veliki Shef)
-- Colt Ranger (CN memories & KF redfox)  \
-  ![hud_colt_ranger_quick.png](textures/hud_colt_ranger_quick.png)
-- Gaint Sword (KF redfox)  \
-  ![hud_gaint_sword.png](textures/hud_gaint_sword.png)
-- M30 rifle/shotgun (Unit G17 & CN memories & KF redfox)  \
-  ![hud_m30_rifle.png](textures/hud_m30_rifle.png) ![hud_m30_shotgun.png](textures/hud_m30_shotgun.png)
-- CMGL-12 (Waltarron)  \
-  ![hud_cmgl-12.png](textures/hud_cmgl-12.png)
-- X12-XREP (Waltarron)  \
-  ![hud_x12_xrep.png](textures/hud_x12_xrep.png)
-- Merkava Tank (Unit G17)
-- VFS moddable vehicle + workstations (Xe-No & Return_Dirt & KF Redfox)
-- F2000EGLM (Waltarron)  \
-  ![hud_f2000eglm.png](textures/hud_f2000eglm.png) ![hud_f2000eglm.png](textures/hud_f2000eglm_g.png)
+- President Skins (Veliki Shef) (?)
+- Zweihander! (KF redfox)  \
+  ![hud_gaint_sword.png](textures/hud_zweihander.png)
 - Assault Rifles with Underbarrel Grenade Launchers (Unit G17)  \
   ![hud_ak47_w_gp25.png](textures/hud_ak47_w_gp25.png) ![hud_ak47_w_gp25_g.png](textures/hud_ak47_w_gp25_g.png)  \
   ![hud_g36_w_ag36.png](textures/hud_g36_w_ag36.png) ![hud_g36_w_ag36_g.png](textures/hud_g36_w_ag36_g.png)  \
   ![hud_m16a4_w_m203.png](textures/hud_m16a4_w_m203.png) ![hud_m16a4_w_m203_g.png](textures/hud_m16a4_w_m203_g.png)
 - American 180 ( KF redfox)  \
   ![hud_a180.png](textures/hud_a180.png)
-- NTW 20 ( P90 rush B & KF redfox)  \
-  ![hud_ntw20.png](textures/hud_ntw20.png)
-- RT 20 ( P90 rush B & KF redfox)  \
-  ![hud_rt20.png](textures/hud_rt20.png)
-- golden mp5sd ( Marcus & KF redfox)  \
+- golden mp5sd 😎 ( Marcus & KF redfox)  \
   ![hud_ntw20.png](textures/hud_golden_mp5sd.png)
 - Musket Bayonet ( KF redfox)  \
   ![hud_musket_bayonet.png](textures/hud_musket_bayonet.png)
-- MK14 EBR ( MoistGoat ) \
-  ![hud_mk14ebr.png](textures/hud_mk14ebr.png)
 
 
 
