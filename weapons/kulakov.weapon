@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="shumikha.weapon" time_to_live_out_in_the_open="90.0" player_death_drop_owner_lock_time="30.0">
-    <tag name="sniper" />
+<weapon file="base_primary_rare.weapon" key="kulakov.weapon" time_to_live_out_in_the_open="90.0" player_death_drop_owner_lock_time="30.0">
+    <tag name="assault" />
 
     <specification 
   retrigger_time="-1.0" 
   accuracy_factor="0.7" 
   sustained_fire_grow_step="3.5" 
   sustained_fire_diminish_rate="0.2" 
-  magazine_size="3" 
+  magazine_size="5" 
   can_shoot_standing="1" 
   suppressed="0" 
-  name="Shumikha Launcher" 
+  name="Kulakov" 
   class="2"  
-  reload_one_at_a_time="0" 
+  reload_one_at_a_time="1" 
   projectile_speed="110.0" 
   barrel_offset="0.3" 
   projectiles_per_shot="1"
@@ -26,9 +26,9 @@
 
     <animation key="recoil" ref="27" />
     <animation key="cycle" ref="30" />
-    <animation state_key="reload" animation_key="reloading, Shumikha" />
+    <animation state_key="reload" animation_key="reloading, mgl, one at a time" />
 
-    <sound key="fire" fileref="shumikha_shot.wav" volume="18" />
+    <sound key="fire" fileref="kulakov_shot.wav" volume="18" />
     <sound key="magazine_out" fileref="m79_clip_out.wav" volume="1" />
     <sound key="magazine_in" fileref="mossberg500_reload.wav" volume="1"/>
     <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
@@ -37,7 +37,7 @@
     <sound class="impact" fileref="rifle_drop.wav" />
 
 
-    <model filename="shumikha.xml" />
+    <model filename="kulakov.xml" />
 
     <projectile file="firenade.projectile" />
     <weak_hand_hold offset="0.3" />
@@ -45,7 +45,7 @@
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.6" />
 
-    <hud_icon filename="hud_shumikha.png" />
+    <hud_icon filename="hud_kulakov.png" />
     <commonness value="0.0" can_respawn_with="0" in_stock="1" />
     <inventory encumbrance="10.0" price="530.0" />
 
@@ -54,12 +54,12 @@
 
 
     <stance state_key="running" accuracy="0.1" />
-    <stance state_key="walking" accuracy="0.25" />
+    <stance state_key="walking" accuracy="0.35" />
     <stance state_key="crouch_moving" accuracy="0.1" />
     <stance state_key="prone_moving" accuracy="0.1" />
 
-    <stance state_key="standing" accuracy="0.6" />
-    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="standing" accuracy="0.7" />
+    <stance state_key="crouching" accuracy="0.85" />
     <stance state_key="prone" accuracy="1.0" />
     <stance state_key="over_wall" accuracy="0.8" /> 
 

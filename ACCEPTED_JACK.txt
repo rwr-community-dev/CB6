@@ -3,22 +3,21 @@ CB6 approved
 ***********************************************************
 
 - Attack dogs (Kiruex)
+---- maybe not using a call event for that (like chicken?)
 - Rangefinder binoculars (Unit G17)
 - ARES Shrike recoil reworked [accuracy_factor: 0.8 -> 0.9, sustained_fire_grow_step: 0.2 -> 0.1, sustained_fire_diminish_rate: 1.4 -> 0.4], added semi automatic mode
 - 44 Magnum reanimation and rapid fire mode (Kiruex)
----- bad animation
--------- done
 - Assault Rifles with Underbarrel Grenade Launchers (Unit G17)
 - Compound Bow effective range significantly increased [kill_decay_start_time: 0.1 -> 0.6]
----- more abstract "explosion" hud
----- explosive projectile less pulldown
-- Shumikha Launcher (KF redfox)
----- molotov cocktail launcher. Should have burning ground particles. See         <effect class="result" key="terrain" ref="IceCrackRing" post_processing="0" /> 
-------- done
-- KSxS-6 Hunter double-barrel shotgun with double shot mode (Kiruex)
+---- TODO: more abstract "explosion" hud
+- Kulakov (KF redfox)
+---- molotov cocktail launcher, renamed from Shumikha Launcher because of IP of Rainbow Six
+---- uses MGL one at time reloaded and mag increased to 5
+- Hunter double-barrel shotgun with double shot mode (Kiruex)
 - Buckshot Bess Musket reload time decreased [reload_anim_speed: 0.3 -> 0.5] + bajonet
 ----- + skin
 - Milkor MGL uses a cycle animation instead of retrigger timer to prevent reload spam, reload speed increased [reload_anim_speed: 0.8 -> 1.25]
+----- need to compare to existing one, we don't want it to be even better, do we?
 - Black Ops vest can survive one small blast (reason for change: grenadiers)
 - PF-98 reload time decreased [reload_anim_speed: 0.35 -> 0.5]
 - zweihander (KF redfox)
@@ -28,23 +27,16 @@ CB6 approved
 - EOD + Ninjato skin
 - M712 Schnellfeuer projectile speed increased [90 -> 100]
 - Ammo backpacks for WB-II Microgun and KAC Chain SAW (warbrand2)
----- way too big and clunky visual
------- done
 - Flamethrower rework and fuel backpack (Kiruex)
 ---- just the fuel backpack
 - Chain Saw damage significantly increased to reliably cut down weaker vehicles and emplacements [blast damage: 0.01 -> 0.05]
 ---- 0.05 instead of 0.07
 - All shotguns with 0.6 recoil recovery: recovery rate increased to 0.9
 - Buckshot Bess Musket reload time decreased [reload_anim_speed: 0.3 -> 0.4]
-- PF-98 reload time decreased [reload_anim_speed: 0.35 -> 0.5]
 - Sawn-Off Shotgun reload time decreased [reload_anim_speed: 0.3125 -> 0.4]
 - Dragon's Breath reload time decreased [reload_anim_speed: 0.3125 -> 0.4]
 - APR recoil recovery rate increased [sustained_fire_diminish_rate: 0.5 -> 0.9]
-- Milkor MGL uses a cycle animation instead of retrigger timer to prevent reload spam, reload speed increased [reload_anim_speed: 0.8 -> 1.25]
-- Mac10 w/ bayonet (KF redfox)
----- could be ok as Uzi alternative but would need to be one handed
----- and alt fire being suppressed and not bayonet
-------- done
+- Mac10 + suppressor version (KF redfox)
 
 
 ***********************************************************
@@ -67,11 +59,12 @@ to be considered / for future updates / needs more testing:
 - Stoner 62 recoil decreased [sustained_fire_grow_step: 0.4 -> 0.35] and recovery increased [sustained_fire_diminish_rate: 1.2 -> 1.4], decreased stance accuracy rate [<blank> -> `stance_accuracy_rate="1.0"` ?]
 ---- is the weapon really that bad? needs to be tested more. Has already been buffed in the past
 - RPD w/ bipod (oche34 & KF redfox)
----- recoil recovery, spread... are awful, even with bipod and barely a stance change 
+---- rework, test it
 - Ash 12 (Kiruex)
----- removing the "not_equal" for stun
+---- reworked, test it
 - Ultimax 100 reverse-recoil light machine gun (Kiruex)
----- at least something different, but might be too strong? Needs to be tested on the field. The steadiness while walking is a bit of an issue
+---- heavily reworked, test it
+---- sometimes the spread it not changing, needs investigation
 
 
 

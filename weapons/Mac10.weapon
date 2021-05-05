@@ -13,8 +13,8 @@
     suppressed="0" 
     name="MAC-10" 
     class="0" 
-    projectile_speed="100.0"
-    barrel_offset="0.1"   
+    projectile_speed="105.0"
+    barrel_offset="0.0"   
     slot="1"   />
 
 	<next_in_chain key="mac10sd.weapon" share_ammo="1" />   
@@ -43,24 +43,24 @@
 
     <hud_icon filename="hud_mac10.png" />
     <commonness value="0.0" can_respawn_with="0" in_stock="1" />
-    <inventory encumbrance="10.0" price="110.0" />
+    <inventory encumbrance="10.0" price="210.0" />
 
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.45" 
-        kill_decay_start_time="0.20" 
-        kill_decay_end_time="0.36" />
+        kill_decay_start_time="0.27" 
+        kill_decay_end_time="0.43" />
     </projectile>
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.3" />    
     
     <modifier class="speed" value="+0.0" />
     
-    <stance state_key="running" accuracy="0.5" />
-    <stance state_key="walking" accuracy="0.66" />
-    <stance state_key="crouch_moving" accuracy="0.6" />
+    <stance state_key="running" accuracy="0.4" />
+    <stance state_key="walking" accuracy="0.7" />
+    <stance state_key="crouch_moving" accuracy="0.5" />
     <stance state_key="standing" accuracy="0.87" />
     <stance state_key="crouching" accuracy="0.92" />
     <stance state_key="prone" accuracy="0.93" /> 
     <stance state_key="prone_moving" accuracy="0.7" />
-    <stance state_key="over_wall" accuracy="0.9" />
+    <stance state_key="over_wall" accuracy="0.87" />
 </weapon>

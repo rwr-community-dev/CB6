@@ -25,6 +25,83 @@ particle_system BurnOut
 {
 	quota	400
 	material	BurnOut
+	particle_width	4     
+	particle_height	4
+	cull_each	false
+	renderer	billboard
+    billboard_type    perpendicular_common
+    common_direction 0 1 0
+    common_up_vector 0 0 1
+    billboard_origin center    
+
+	emitter Point
+	{
+		angle	0
+		colour	0.1 0.15 1 1
+       
+		direction	0 1 0
+		emission_rate	21
+		position	0 0.2 0
+		velocity	0
+		velocity_min	0
+		velocity_max	0
+		time_to_live	0
+		time_to_live_min	20
+		time_to_live_max	25
+		duration	0.05
+
+              
+  
+    }    
+   
+	affector ColourFader2
+	{
+		red1	0
+		green1	0
+		blue1	0
+		alpha1	0
+		red2	0.2
+		green2	0.2
+		blue2	0.2
+		alpha2	-0.07
+		state_change	20
+	}  
+    
+affector Rotator
+    {
+        rotation_range_start 0
+        rotation_range_end 360
+        
+    }      
+}
+
+material BurnOut_short
+{
+        receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting on
+			ambient vertexcolour
+			diffuse vertexcolour
+			scene_blend alpha_blend
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture burn_out2.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+particle_system BurnOut_short
+{
+	quota	1000
+	material	BurnOut_short
 	particle_width	3     
 	particle_height	3
 	cull_each	false
@@ -46,8 +123,8 @@ particle_system BurnOut
 		velocity_min	0
 		velocity_max	0
 		time_to_live	0
-		time_to_live_min	15
-		time_to_live_max	20
+		time_to_live_min	20
+		time_to_live_max	25
 		duration	0.05
 
               
@@ -63,7 +140,7 @@ particle_system BurnOut
 		red2	0.2
 		green2	0.2
 		blue2	0.2
-		alpha2	-0.1
+		alpha2	-0.06
 		state_change	20
 	}  
     

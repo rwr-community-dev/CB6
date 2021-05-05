@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary.weapon" key="rpd_b.weapon">
+<weapon file="base_primary_rare.weapon" key="rpd_b.weapon">
     <tag name="machine gun" />
     <specification 
   retrigger_time="0.092" 
-  accuracy_factor="0.6" 
+  accuracy_factor="0.8" 
   sustained_fire_grow_step="0.75" 
   sustained_fire_diminish_rate="0.95" 
   magazine_size="120" 
@@ -12,7 +12,7 @@
   suppressed="0" 
   name="RPD - bipod" 
   class="0" 
-  projectile_speed="92.0"
+  projectile_speed="100.0"
 	barrel_offset="0.55"  />
 
 	<next_in_chain key="rpd.weapon" share_ammo="1" />
@@ -48,5 +48,5 @@
 	<capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.6" />
 
-    <modifier class="speed" value="-0.092" />
+    <modifier class="speed" value="-0.12" />
 </weapon>

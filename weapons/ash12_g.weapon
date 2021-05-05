@@ -13,7 +13,7 @@
   name="ASh-12.7" 
   class="4" 
   reload_one_at_a_time="1"    
-  projectile_speed="70.0"
+  projectile_speed="60.0"
   projectiles_per_shot="1"  
   barrel_offset="0.3" 
   burst_shots="1"
@@ -27,7 +27,7 @@
     <animation state_key="reload" animation_key="reloading, ash, one at a time" />
     <animation state_key="next_in_chain_in" animation_key="switch fire mode" />    
 
-    <sound key="fire" fileref="portable_mortar_shot.wav" pitch_variety="0.1" volume="0.8" />
+    <sound key="fire" fileref="portable_mortar_shot.wav" pitch_variety="0.1" volume="0.6" />
     <sound key="magazine_out" fileref="m79_clip_out.wav" volume="0.8" />
     <sound key="magazine_in" fileref="mossberg500_reload.wav" volume="0.8"/>
     <sound key="reload_one" fileref="m79_reload.wav" />
