@@ -4,12 +4,12 @@
     <specification 
   retrigger_time="0.141" 
   accuracy_factor="0.98" 
-  sustained_fire_grow_step="0.7" 
-  sustained_fire_diminish_rate="1.2" 
+  sustained_fire_grow_step="0.56" 
+  sustained_fire_diminish_rate="1.8" 
   magazine_size="30" 
   can_shoot_standing="1" 
   suppressed="0" 
-  name="Gilboa DBR" 
+  name="Gilboa Carbine" 
   class="0" 
   projectile_speed="100.0"
   barrel_offset="0.4" 
@@ -22,14 +22,14 @@
 
     <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
 
-    <sound key="fire" fileref="gilboa_dbr_shot.wav" pitch_variety="0.05" volume="0.65" />
+    <sound key="fire" fileref="gilboa_shot.wav" pitch_variety="0.05" volume="0.65" />
     <sound key="magazine_out" fileref="rifle_clip_out.wav" />
     <sound key="magazine_in" fileref="rifle_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
-    <model filename="gilboa_dbr.xml" />
+    <model filename="gilboa.xml" />
 
-    <hud_icon filename="hud_gilboa_dbr.png" />
+    <hud_icon filename="hud_gilboa.png" />
     <commonness value="0.0" can_respawn_with="0" in_stock="1" />
     <inventory encumbrance="10.0" price="444.0" />
 
@@ -37,7 +37,7 @@
     <capacity source="rank" source_value="1.0" value="1" />    
 
     <projectile file="bullet.projectile">
-	    <result class="hit" kill_probability="0.40" kill_decay_start_time="0.3" kill_decay_end_time="0.6" />
+	    <result class="hit" kill_probability="0.56" kill_decay_start_time="0.40" kill_decay_end_time="0.65" />
     </projectile>
-    <modifier class="speed" value="-0.06" />
+    <modifier class="speed" value="-0.025" />
 </weapon>

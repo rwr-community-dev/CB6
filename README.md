@@ -17,8 +17,8 @@
   ![hud_Mac10.png](textures/hud_mac10sd.png)
 - RPD w/ bipod (oche34 & KF redfox)  \
   ![hud_RPD.png](textures/hud_rpd_b.png)
-- Shumikha Launcher (KF redfox)  \
-  ![hud_Shumikha.png](textures/hud_Shumikha.png)
+- Kulakov Launcher (KF redfox)  \
+  ![hud_kulakov.png](textures/hud_kulakov.png)
 - President Skins (Veliki Shef) (?)
 - Zweihander! (KF redfox)  \
   ![hud_gaint_sword.png](textures/hud_zweihander.png)
@@ -26,8 +26,6 @@
   ![hud_ak47_w_gp25.png](textures/hud_ak47_w_gp25.png) ![hud_ak47_w_gp25_g.png](textures/hud_ak47_w_gp25_g.png)  \
   ![hud_g36_w_ag36.png](textures/hud_g36_w_ag36.png) ![hud_g36_w_ag36_g.png](textures/hud_g36_w_ag36_g.png)  \
   ![hud_m16a4_w_m203.png](textures/hud_m16a4_w_m203.png) ![hud_m16a4_w_m203_g.png](textures/hud_m16a4_w_m203_g.png)
-- American 180 ( KF redfox)  \
-  ![hud_a180.png](textures/hud_a180.png)
 - golden mp5sd 😎 ( Marcus & KF redfox)  \
   ![hud_ntw20.png](textures/hud_golden_mp5sd.png)
 - Musket Bayonet ( KF redfox)  \

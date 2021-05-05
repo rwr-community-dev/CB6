@@ -6,7 +6,7 @@
   accuracy_factor="0.8" 
   sustained_fire_grow_step="0.75" 
   sustained_fire_diminish_rate="0.95" 
-  magazine_size="120" 
+  magazine_size="100" 
   can_shoot_standing="0" 
   can_shoot_crouching="0" 
   suppressed="0" 
@@ -29,7 +29,7 @@
     <animation state_key="walking" animation_key="walking, heavy weapon" />
     <animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
 
-    <sound key="fire" fileref="rpd_shot.wav" pitch_variety="0.05" volume="0.6" />
+    <sound key="fire" fileref="rpd_shot.wav" pitch_variety="0.05" volume="0.18" />
     <sound key="magazine_out" fileref="mg_clip_out.wav" />
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
@@ -38,11 +38,11 @@
 
     <hud_icon filename="hud_rpd_b.png" />
     <commonness value="0.0" can_respawn_with="0" in_stock="0"/>
-    <inventory encumbrance="10.0" price="480.0" />
+    <inventory encumbrance="10.0" price="610.0" />
 
     <weak_hand_hold offset="0.4" />
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.60" kill_decay_start_time="0.30" kill_decay_end_time="0.7" />
+        <result class="hit" kill_probability="0.62" kill_decay_start_time="0.35" kill_decay_end_time="0.7" />
     </projectile>
 
 	<capacity value="0" source="rank" source_value="0.0" />

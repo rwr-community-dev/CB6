@@ -89,9 +89,9 @@
 	<carry_item key='vest_blackops.carry_item' enabled="0" />
 
 	<carry_item key='costume_banana.carry_item' />
-	<carry_item key='camo_vest.carry_item' />
+
 	<carry_item key='vest2.carry_item' />
-	<carry_item key='vest_exo.carry_item' />
+
 
 	<!-- common vehicles -->
 
@@ -376,6 +376,8 @@
 	  <weapon key="g11.weapon" />
 	<carry_item key='eodvest.carry_item' enabled="1" />
 	<carry_item key='vest3.carry_item' enabled="1" />
+	<carry_item key='vest_exo.carry_item' enabled="1" />
+	<carry_item key='camo_vest.carry_item' enabled="1" />
 	
 
 </resources>

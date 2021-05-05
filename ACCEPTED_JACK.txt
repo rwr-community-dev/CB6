@@ -10,7 +10,7 @@ CB6 approved
 - Assault Rifles with Underbarrel Grenade Launchers (Unit G17)
 - Compound Bow effective range significantly increased [kill_decay_start_time: 0.1 -> 0.6]
 ---- TODO: more abstract "explosion" hud
-- Kulakov (KF redfox)
+- Kulakov (KF redfox, Xeno)
 ---- molotov cocktail launcher, renamed from Shumikha Launcher because of IP of Rainbow Six
 ---- uses MGL one at time reloaded and mag increased to 5
 - Hunter double-barrel shotgun with double shot mode (Kiruex)
@@ -65,9 +65,3 @@ to be considered / for future updates / needs more testing:
 - Ultimax 100 reverse-recoil light machine gun (Kiruex)
 ---- heavily reworked, test it
 ---- sometimes the spread it not changing, needs investigation
-
-
-
-
-
-      
