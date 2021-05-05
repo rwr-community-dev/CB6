@@ -12,7 +12,7 @@
 - Ash 12 (Kiruex)  \
   ![hud_ash12.png](textures/hud_ash12.png) ![hud_ash12_g.png](textures/hud_ash12_g.png)
 - Gilboa DBR (NC0032 & KF redfox)  \
-  ![hud_gilboa_DBR.png](textures/hud_gilboa_DBR.png)
+  ![hud_gilboa.png](textures/hud_gilboa.png)
 - Mac10SD (KF redfox)  \
   ![hud_Mac10.png](textures/hud_mac10sd.png)
 - RPD w/ bipod (oche34 & KF redfox)  \
