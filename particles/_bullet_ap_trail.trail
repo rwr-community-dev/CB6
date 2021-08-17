@@ -1,5 +1,5 @@
 <trail
-key="BulletApTrail"
+key="_BulletApTrail"
 material="BulletApTrail"
 max_chains = "3"
 trail_length="25.0"
