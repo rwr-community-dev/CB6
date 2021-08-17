@@ -1,5 +1,5 @@
 #include "path://media/packages/vanilla/scripts"
-#include "path://media/packages/_CB6/scripts"
+#include "path://media/packages/CB6/scripts"
 #include "gamemode_tester.as"
 
 void main(dictionary@ inputData) {
