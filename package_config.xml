@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package
   name="CB6 tester package"
-  description="https://github.com/rwr-community-dev/"
+  description="https://github.com/rwr-community-dev/_CB6"
   image="campaign_preview.png"
   show_in_campaign_menu="1"
   show_in_campaigns="1"
