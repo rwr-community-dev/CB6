@@ -2,8 +2,8 @@
 #include "metagame.as"
 #include "log.as"
 
-// generic trackers
-#include "path://media/packages//scripts"
+// generic trackers 
+#include "path://media/packages/_CB6/scripts"
 #include "basic_command_handler.as"
 #include "emp_grenade.as"
 #include "gps_laptop.as"
@@ -48,12 +48,12 @@ class GameModeTester : Metagame {
 		array<CallMarkerConfig@> configs = {
 		//CallMarkerConfig(string key, int atlasIndex = 0, float size = 2.0, float range = 1.0, string text = "")
 		CallMarkerConfig("mortar1.call", "call_marker", 6, 0.5, 30.0),
-		CallMarkerConfig("mortar2.call", "call_marker", 7, 0.5, 50.0),
+		CallMarkerConfig("mortar2.call", "call_marker", 7, 0.5, 50.0),      
 		CallMarkerConfig("artillery1.call", "call_marker", 8, 1.0, 90.0),
 		CallMarkerConfig("artillery2.call", "call_marker", 9, 1.0, 90.0),
 		CallMarkerConfig("paratroopers1.call", "call_marker_drop", 10, 0.5),
 		CallMarkerConfig("paratroopers2.call", "call_marker_drop", 11, 0.5),
-		CallMarkerConfig("paratroopers_medic.call", "call_marker_drop", 14, 0.5),
+		CallMarkerConfig("paratroopers_medic.call", "call_marker_drop", 14, 0.5),            
 		CallMarkerConfig("humvee.call", "call_marker_drop", 12, 0.5),
 		CallMarkerConfig("buggy.call", "call_marker_drop", 12, 0.5),
 		CallMarkerConfig("supply_quad.call", "call_marker_drop", 13, 0.5),
@@ -65,7 +65,7 @@ class GameModeTester : Metagame {
 		};
 
 		addTracker(CallMarkerTracker(this, configs));
-
+		
 
 		XmlElement element(dictionary = {{"TagName", "command"},{"class", "chat"},{"text", "hello!"}});
 		m_comms.send(element);
